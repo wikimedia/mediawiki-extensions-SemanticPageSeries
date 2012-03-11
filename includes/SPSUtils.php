@@ -60,7 +60,7 @@ class SPSUtils {
 
 		// set the origin parameter
 		// This will block it from use as iterator parameter. Oh well.
-		$params[] = "origin=" . $parser->getTitle()->getArticleId();
+		$params[] = "origin=" . $parser->getTitle()->getArticleID();
 		
 		// hack to remove newline from beginning of output, thanks to
 		// http://jimbojw.com/wiki/index.php?title=Raw_HTML_Output_from_a_MediaWiki_Parser_Function
