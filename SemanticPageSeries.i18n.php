@@ -247,6 +247,27 @@ $1',
 	'spserror-count-digitsvaluemalformed' => 'Le valor de cifras non es un numero.',
 );
 
+/** Italian (Italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'semanticpageseries-desc' => 'Crea una serie di pagine da un [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Form]',
+	'spssuccesstitle' => 'Creazione di pagine $1',
+	'spssuccess' => '{{PLURAL:$1|Una pagina|$1 pagine}} saranno create.',
+	'spssuccess-returntoorigin' => 'Torna a $1',
+	'spserror' => 'Si è verificato un errore',
+	'spserror-diffnotsupported' => 'La funzione di differenza non è supportata per le serie di pagine.',
+	'spserror-previewnotsupported' => 'La funzione di anteprima non è supportata per le serie di pagine.',
+	'spserror-formunknown' => 'Modulo "$1" non esiste.',
+	'spserror-noiteratordata' => 'Nessun parametro di iterazione trovato nei dati inviati.',
+	'spserror-pagegenerationlimitexeeded' => 'Si è cercando di generare {{PLURAL:$1|una pagina|$1 pagine}}. Questo supera il limite consentito di {{PLURAL:$2|una pagina|$2 pagine}}.',
+	'spserror-date-startdatemissing' => 'Manca la data di inizio.',
+	'spserror-count-startvaluemalformed' => 'Il valore iniziale non è un numero.',
+	'spserror-count-endvaluemalformed' => 'Il valore finale non è un numero.',
+	'spserror-count-stepvaluemalformed' => 'Il valore di incremento non è un numero.',
+	'spserror-count-digitsvaluemalformed' => 'Il valore di cifre non è un numero.',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
