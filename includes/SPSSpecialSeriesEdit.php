@@ -23,7 +23,7 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 	}
 
 	public function execute( $parameters ) {
-		global $wgRequest, $wgOut;
+		global $wgRequest;
 
 		$this->setHeaders();
 		
@@ -165,7 +165,7 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 
 	private function evaluateForm( WebRequest &$request ) {
 
-		global $wgOut, $wgUser, $spsgIterators;
+		global $wgUser, $spsgIterators;
 
 		$requestValues = $_POST;
 
@@ -180,6 +180,7 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 		$targetFormName = null;
 		$targetFieldName = null;
 		$originPageId = null;
+		$keepParameters = false;
 
 		foreach ( $iteratorData as $param => $value ) {
 
@@ -197,8 +198,10 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 				case 'origin':
 					$originPageId = $value;
 					break;
+				case 'keep_parameters':
+					$keepParameters = true;
 				default :
-					$iteratorParams[$param] = $this->getAndRemoveFromArray( $requestValues, $value );
+					$iteratorParams[$param] = $this->getAndRemoveFromArray( $requestValues, $value, $keepParameters );
 			}			
 		}
 
@@ -295,6 +298,9 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 		// targetFormName
 		$targetFormName = $request->getVal( 'target_form' );
 
+		// keep parameters?
+		$keepParams = $request->getVal( 'keep_parameters' ) !== null;
+
 		if ( is_null( $targetFormName ) ) {
 			throw new SPSException( SPSUtils::buildMessage( 'spserror-notargetformname' ) );
 		}
@@ -321,6 +327,10 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 			'origin' => $request->getVal( 'origin' )
 		);
 
+		if ($keepParams) {
+			$params['keep_parameters'] = true;
+		}
+		
 		// add the iterator-specific values
 		$paramNames = $iterator->getParameterNames();
 		$errors = '';
@@ -358,13 +368,15 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 	 * @param type $key
 	 * @param type $toplevel 
 	 */
-	private function getAndRemoveFromArray( &$array, $key, $toplevel = true ) {
+	private function getAndRemoveFromArray( &$array, $key, $keepParameters = false, $toplevel = true ) {
 
 		$matches = array();
 
 		if ( array_key_exists( $key, $array ) ) {
 			$value = $array[$key];
-			unset( $array[$key] );
+			if ( !$keepParameters ) {
+				unset( $array[$key] );
+			}
 			return $value;
 		} elseif ( preg_match( '/^([^\[\]]*)\[([^\[\]]*)\](.*)/', $key, $matches ) ) {
 
@@ -381,7 +393,7 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 				return null;
 			}
 
-			$value = $this->getAndRemoveFromArray( $array[$key], $matches[2] . $matches[3], false );
+			$value = $this->getAndRemoveFromArray( $array[$key], $matches[2] . $matches[3], $keepParameters, false );
 
 			if ( empty( $array[$key] ) ) {
 				unset( $array[$key] );

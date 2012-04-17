@@ -44,8 +44,6 @@ class SPSUtils {
 	 */
 	static public function renderSeriesLink( &$parser ) {
 		
-		global $wgTitle;
-		
 		$params = func_get_args();
 		array_shift( $params ); // We don't need the parser.
 		
@@ -54,6 +52,8 @@ class SPSUtils {
 			$elements = explode( '=', $value, 2 );
 			if ( $elements[0] === 'target' ){
 				unset($params[$key]);
+			} elseif ( $elements[0] === 'keep parameters') {
+				$params[$key] = 'keep parameters=1';
 			}
 
 		}
