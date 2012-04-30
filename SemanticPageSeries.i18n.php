@@ -65,6 +65,13 @@ $messages['qqq'] = array(
 	'spserror-count-digitsvaluemalformed' => 'An error message',
 );
 
+/** Banjar (Bahasa Banjar)
+ * @author J Subhi
+ */
+$messages['bjn'] = array(
+	'spssuccesstitle' => 'Ma-ulah $1 tutungkaran',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  */
