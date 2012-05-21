@@ -275,6 +275,19 @@ $messages['it'] = array(
 	'spserror-count-digitsvaluemalformed' => 'Il valore di cifre non è un numero.',
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'spssuccesstitle' => '$1 ページを作成中',
+	'spssuccess' => '{{PLURAL:$1|$1 ページ}}が作成されます。',
+	'spssuccess-returntoorigin' => '$1 に戻る',
+	'spserror' => 'エラーが発生しました',
+	'spserror-date-startdatemissing' => '開始日がありません。',
+	'spserror-count-startvaluemalformed' => '開始値が数値ではありません。',
+	'spserror-count-endvaluemalformed' => '終了値が数値ではありません。',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
