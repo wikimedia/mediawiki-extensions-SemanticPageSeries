@@ -110,6 +110,13 @@ $1',
 	'spserror-count-digitsvaluemalformed' => 'Der Ziffernwert ist keine Zahl.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'spssuccess' => '{{PLURAL:$1|Ju pela|$1 peley}} do dekero de.',
+);
+
 /** Spanish (Español)
  * @author Armando-Martin
  */
