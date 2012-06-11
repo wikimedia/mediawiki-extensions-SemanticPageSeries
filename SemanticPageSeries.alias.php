@@ -15,9 +15,19 @@ $specialPageAliases['en'] = array(
 	'SeriesEdit' => array( 'SeriesEdit' ),
 );
 
+/** Arabic (العربية) */
+$specialPageAliases['ar'] = array(
+	'SeriesEdit' => array( 'تعديل_جدي' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'SeriesEdit' => array( 'Seitenabfolge_bearbeiten' ),
+);
+
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'SeriesEdit' => array( 'RatanVurnayış' ),
 );
 
 /** Swiss German (Alemannisch) */
@@ -25,12 +35,17 @@ $specialPageAliases['gsw'] = array(
 	'SeriesEdit' => array( 'Syteabfolg_bearbeite' ),
 );
 
-/** Macedonian (Македонски) */
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'SeriesEdit' => array( '시리즈편집' ),
+);
+
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'SeriesEdit' => array( 'УредувањеНаНизи' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'SeriesEdit' => array( 'Serieredigering' ),
 );
