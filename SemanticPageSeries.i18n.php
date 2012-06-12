@@ -261,7 +261,7 @@ $1',
 	'spserror-count-digitsvaluemalformed' => 'Le valor de cifras non es un numero.',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  */
 $messages['it'] = array(
@@ -272,10 +272,18 @@ $messages['it'] = array(
 	'spserror' => 'Si è verificato un errore',
 	'spserror-diffnotsupported' => 'La funzione di differenza non è supportata per le serie di pagine.',
 	'spserror-previewnotsupported' => 'La funzione di anteprima non è supportata per le serie di pagine.',
+	'spserror-noiteratorname' => 'Nessun iteratore specificato. È necessario impostare il parametro "iterator" nella chiamata alla funzione parser #serieslink.',
+	'spserror-iteratorunknown' => 'Iteratore "$1" non esiste. È necessario correggere il parametro "iterator" nella chiamata alla funzione parser #serieslink.',
+	'spserror-noformname' => 'Nessun nome del modulo specificato. È necessario impostare il parametro "form" nella chiamata alla funzione parser #serieslink.',
 	'spserror-formunknown' => 'Modulo "$1" non esiste.',
+	'spserror-notargetformname' => 'Nessun nome del modulo di destinazione specificato. È necessario impostare il parametro "target form" nella chiamata alla funzione parser #serieslink.',
+	'spserror-notargetfieldname' => 'Nessun nome del campo di destinazione specificato. È necessario impostare il parametro "target field" nella chiamata alla funzione parser #serieslink.',
+	'spserror-iteratorparammissing' => 'I seguenti parametri di iterazione sono mancanti nella chiamata alla funzione #serieslink:
+$1',
 	'spserror-noiteratordata' => 'Nessun parametro di iterazione trovato nei dati inviati.',
 	'spserror-pagegenerationlimitexeeded' => 'Si è cercando di generare {{PLURAL:$1|una pagina|$1 pagine}}. Questo supera il limite consentito di {{PLURAL:$2|una pagina|$2 pagine}}.',
 	'spserror-date-startdatemissing' => 'Manca la data di inizio.',
+	'spserror-date-internalerror' => 'Si è verificato un errore durante la creazione delle date. Questo potrebbe essere causato da date di inizio o fine non valide.',
 	'spserror-count-startvaluemalformed' => 'Il valore iniziale non è un numero.',
 	'spserror-count-endvaluemalformed' => 'Il valore finale non è un numero.',
 	'spserror-count-stepvaluemalformed' => 'Il valore di incremento non è un numero.',
