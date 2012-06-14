@@ -72,7 +72,7 @@ $messages['bjn'] = array(
 	'spssuccesstitle' => 'Ma-ulah $1 tutungkaran',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -117,7 +117,7 @@ $messages['diq'] = array(
 	'spssuccess' => '{{PLURAL:$1|Ju pela|$1 peley}} do dekero de.',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  */
 $messages['es'] = array(
@@ -146,7 +146,7 @@ $1',
 	'spserror-count-digitsvaluemalformed' => 'El valor de los dígitos no es un número.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  */
 $messages['fr'] = array(
@@ -232,7 +232,7 @@ $messages['hsb'] = array(
 	'spserror-count-digitsvaluemalformed' => 'Cyfrowa hódnota ličba njeje.',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -319,7 +319,7 @@ $messages['lb'] = array(
 	'spserror-count-endvaluemalformed' => 'De Schlusswäert ass keng Zuel.',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -379,7 +379,25 @@ $1',
 	'spserror-count-digitsvaluemalformed' => 'De cijferwaarde is geen getal.',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'semanticpageseries-desc' => 'Lumilikha ng isang serye ng mga pahina mula sa isang [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Pormularyong Semantiko]',
+	'spssuccesstitle' => 'Lumilikha ng $1 mga pahina',
+	'spssuccess' => '{{PLURAL:$1|Isang pahina|$1 mga pahina}} ang lilikhain.',
+	'spssuccess-returntoorigin' => 'Bumalik sa $1',
+	'spserror' => 'Naganap ang isang kamalian',
+	'spserror-diffnotsupported' => 'Ang galaw ng pagkakaiba ay hindi sinusuportahan para sa mga serye ng pahina.',
+	'spserror-previewnotsupported' => 'Ang galaw na may paunang pagtingin ay hindi sinusuportahan para sa mga serye ng pahina.',
+	'spserror-noiteratorname' => 'Walang tinukoy na pang-ulit. Dapat mong itakda ang parametrong "pang-ulit" sa loob ng pangtawag ng tungkulin na pambanghay ng #serieslink.',
+	'spserror-iteratorunknown' => 'Hindi umiiral ang pang-ulit na "$1". Dapat mong itama ang parametrong "pang-ulit" sa loob ng pantawag na pangtungkulin ng pambahangya na #serieslink.',
+	'spserror-formunknown' => 'Hindi umiiral ang pormularyong "$1".',
+	'spserror-noiteratordata' => 'Walang natagpuang mga parametro ng pang-ulit sa loob ng datong ipinadala.',
+	'spserror-date-startdatemissing' => 'Nawawala ang petsa ng simula.',
+);
+
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Linforest
  */
 $messages['zh-hans'] = array(
