@@ -294,6 +294,7 @@ $1',
  * @author Shirayuki
  */
 $messages['ja'] = array(
+	'semanticpageseries-desc' => '1つの[https://www.mediawiki.org/wiki/Extension:Semantic_Forms セマンティックフォーム]から一連のページを作成する',
 	'spssuccesstitle' => '$1 ページを作成中',
 	'spssuccess' => '{{PLURAL:$1|$1 ページ}}が作成されます。',
 	'spssuccess-returntoorigin' => '$1 に戻る',
