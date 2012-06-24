@@ -2,7 +2,7 @@
 
 /**
  * File holding the SPSSpecialSeriesEdit class
- * 
+ *
  * @author Stephan Gambke
  * @file
  * @ingroup SemanticPageSeries
@@ -26,43 +26,42 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 		global $wgRequest;
 
 		$this->setHeaders();
-		
+
 		if ( $wgRequest->getCheck( 'wpDiff' ) ) {
-			
+
 			// no support for the diff action
 			throw new SPSException( SPSUtils::buildMessage( 'spserror-diffnotsupported' ) );
-			
+
 		} elseif ( $wgRequest->getCheck( 'wpPreview' ) ) {
 
 			// no support for the preview action
 			throw new SPSException( SPSUtils::buildMessage( 'spserror-previewnotsupported' ) );
-			
+
 		} elseif ( $wgRequest->getCheck( 'wpSave' ) ) {
 
 			// saving requested
 			$this->evaluateForm( $wgRequest );
-			
+
 		} elseif ( isset( $_SESSION ) && count( $_SESSION ) > 0 && isset( $_SESSION['spsForm'] ) && isset( $_SESSION['spsResult'] ) ) {
 
 			// cookies enabled and result data stored
 			$this->printSuccessPage( $_SESSION['spsForm'], $_SESSION['spsResult'], $_SESSION['spsOrigin'] );
-			
-			
+
 			unset( $_SESSION['spsForm'] );
 			unset( $_SESSION['spsResult'] );
 			unset( $_SESSION['spsOrigin'] );
-			
+
 		} elseif ( ( !isset( $_SESSION ) || count( $_SESSION ) ) && count( $_GET ) === 2 ) {
 
 			// cookies disabled, try getting result data from URL
-			
+
 			$get = $_GET;
 			unset( $get['title'] );
 			$get = array_keys($get);
 			$get = explode( ';', $get[0], 3);
-			
+
 			$this->printSuccessPage( $get[0], $get[1], $get[2] );
-						
+
 		} else {
 
 			// no action requested, show form
@@ -200,9 +199,10 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 					break;
 				case 'keep_parameters':
 					$keepParameters = true;
+					break;
 				default :
 					$iteratorParams[$param] = $this->getAndRemoveFromArray( $requestValues, $value, $keepParameters );
-			}			
+			}
 		}
 
 		if ( is_null( $iteratorName ) || $iteratorName === '' ) {
@@ -219,15 +219,15 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 		$iteratorValues = $iterator->getValues( $iteratorParams );
 		$iteratorValuesCount = count( $iteratorValues );
 		$userlimit = $this->getPageGenerationLimit();
-		
+
 		// check userlimit
 		if ( $iteratorValuesCount > $userlimit ) {
 			throw new SPSException( SPSUtils::buildMessage( 'spserror-pagegenerationlimitexeeded', $iteratorValuesCount, $userlimit ) );
 		}
-		
+
 		$targetFormTitle = Title::makeTitleSafe( SF_NS_FORM, $targetFormName );
 		$targetFormPageId = $targetFormTitle->getArticleID();
-		
+
 		$requestValues['user'] = $wgUser->getId();
 
 		foreach ( $iteratorValues as $value ) {
@@ -236,12 +236,12 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 			$job = new SPSPageCreationJob( $targetFormTitle, $requestValues );
 			$job->insert();
 		}
-		
+
 		// if given origin page does not exist use Main page
 		if ( Title::newFromID( $originPageId ) === null ) {
 			$originPageId = Title::newMainPage()->getArticleID();
 		}
-		
+
 		if ( isset( $_SESSION ) ) {
 			// cookies enabled
 			$request->setSessionData( 'spsResult', $iteratorValuesCount );
@@ -261,21 +261,21 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 		global $wgOut;
 
 		$originTitle = Title::newFromID( $originId );
-				
+
 		$wgOut->setPageTitle( SPSUtils::buildMessage( 'spssuccesstitle', Title::newFromID( $formId )->getText() ));
 		$wgOut->addHTML(
 			Html::rawElement( 'p', array( 'class' => 'spssuccess' ), SPSUtils::buildMessage( 'spssuccess', $createdPages ) ) .
-			Html::rawElement( 'p', array( 'class' => 'spssuccess-returntoorigin' ), SPSUtils::buildMessage(
+			(($originTitle !== null)?Html::rawElement( 'p', array( 'class' => 'spssuccess-returntoorigin' ), SPSUtils::buildMessage(
 					'spssuccess-returntoorigin', '[[' . $originTitle->getPrefixedText() . ']]'
 				)
-			)
+			):'')
 		);
 	}
 
 	/**
 	 * Builds a JSON blob of the data required to use the iterator.
 	 * @param WebRequest $request
-	 * @return type 
+	 * @return type
 	 */
 	private function buildIteratorParameters( WebRequest &$request ) {
 
@@ -330,7 +330,7 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 		if ($keepParams) {
 			$params['keep_parameters'] = true;
 		}
-		
+
 		// add the iterator-specific values
 		$paramNames = $iterator->getParameterNames();
 		$errors = '';
@@ -340,12 +340,12 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 			$param = $request->getVal( $paramName );
 
 			if ( is_null( $param )  ) {
-				
+
 				if ( $paramOptional === SPS_MANDATORY) {
 					// mandatory parameter missing
 					$errors .= "* $paramName\n";
 				}
-				
+
 			} else {
 				$params[$paramName] = $param;
 			}
@@ -366,7 +366,7 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 	 *
 	 * @param type $array
 	 * @param type $key
-	 * @param type $toplevel 
+	 * @param type $toplevel
 	 */
 	private function getAndRemoveFromArray( &$array, $key, $keepParameters = false, $toplevel = true ) {
 
@@ -408,17 +408,17 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 
 	public function getPageGenerationLimit() {
 		global $wgUser, $spsgPageGenerationLimits;
-		
+
 		$limit = 0;
 		$groups = $wgUser->getEffectiveGroups();
-		
+
 		foreach ( $groups as $group ) {
 			if ( array_key_exists( $group, $spsgPageGenerationLimits) ) {
 				$limit = max($limit, $spsgPageGenerationLimits[$group]);
 			}
 		}
-		
+
 		return $limit;
 	}
-	
+
 }
