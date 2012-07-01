@@ -175,7 +175,7 @@ $1",
 	'spserror-count-digitsvaluemalformed' => "La valeur des chiffres n'est pas un nombre.",
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -204,7 +204,7 @@ $1',
 	'spserror-count-digitsvaluemalformed' => 'O valor dos díxitos non é un número.',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
