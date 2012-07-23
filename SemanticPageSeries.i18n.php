@@ -114,7 +114,9 @@ $1',
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'spssuccesstitle' => 'Pelay $1 vırazêna',
 	'spssuccess' => '{{PLURAL:$1|Ju pela|$1 peley}} do dekero de.',
+	'spssuccess-returntoorigin' => 'Peyser şo $1.',
 );
 
 /** Spanish (español)
