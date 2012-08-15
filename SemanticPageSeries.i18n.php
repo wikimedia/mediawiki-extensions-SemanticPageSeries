@@ -301,6 +301,7 @@ $messages['ja'] = array(
 	'spssuccess' => '{{PLURAL:$1|$1 ページ}}が作成されます。',
 	'spssuccess-returntoorigin' => '$1 に戻る',
 	'spserror' => 'エラーが発生しました',
+	'spserror-formunknown' => 'フォーム「$1」は存在しません。',
 	'spserror-pagegenerationlimitexeeded' => '{{PLURAL:$1|$1 件のページ}}を作成しようとしました。許可された上限 {{PLURAL:$2|$2 ページ}}を超えています。',
 	'spserror-date-startdatemissing' => '開始日がありません。',
 	'spserror-count-startvaluemalformed' => '開始値が数値ではありません。',
