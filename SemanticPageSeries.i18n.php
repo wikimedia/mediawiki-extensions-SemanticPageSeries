@@ -177,6 +177,16 @@ $1",
 	'spserror-count-digitsvaluemalformed' => "La valeur des chiffres n'est pas un nombre.",
 );
 
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'spssuccesstitle' => 'Crèacion de $1 pâges',
+	'spssuccess' => '{{PLURAL:$1|Yona pâge serat fêta|$1 pâges seront fêtes}}.',
+	'spssuccess-returntoorigin' => 'Tornar a $1',
+	'spserror' => 'Na fôta est arrevâye',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
