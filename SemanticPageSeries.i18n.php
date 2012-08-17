@@ -451,6 +451,13 @@ $messages['tl'] = array(
 	'spserror-count-digitsvaluemalformed' => 'Ang halaga ng mga tambilang ay hindi isang bilang.',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'spserror' => 'ایک غلطی واقع ہوئی',
+);
+
 /** Simplified Chinese (‪中文（简体）‬)
  * @author Linforest
  */
