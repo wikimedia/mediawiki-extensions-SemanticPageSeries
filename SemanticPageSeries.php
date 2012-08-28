@@ -60,6 +60,7 @@ $wgAutoloadClasses['SPSPageCreationJob'] = $dir . '/includes/SPSPageCreationJob.
 $wgAutoloadClasses['SPSIterator'] = $dir . '/includes/iterators/SPSIterator.php';
 $wgAutoloadClasses['SPSDateIterator'] = $dir . '/includes/iterators/SPSDateIterator.php';
 $wgAutoloadClasses['SPSCountIterator'] = $dir . '/includes/iterators/SPSCountIterator.php';
+$wgAutoloadClasses['SPSPageIterator'] = $dir . '/includes/iterators/SPSPageIterator.php';
 
 
 // register Special page
@@ -77,6 +78,7 @@ define('SPS_NOLIMIT', PHP_INT_MAX);
 $spsgIterators = array (
 	'date' => 'SPSDateIterator',
 	'count' => 'SPSCountIterator',
+	'page' => 'SPSPageIterator',
 );
 
 $spsgPageGenerationLimits = array(
