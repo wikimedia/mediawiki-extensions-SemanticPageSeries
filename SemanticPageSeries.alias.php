@@ -45,7 +45,7 @@ $specialPageAliases['mk'] = array(
 	'SeriesEdit' => array( 'УредувањеНаНизи' ),
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $specialPageAliases['nb'] = array(
 	'SeriesEdit' => array( 'Serieredigering' ),
 );
