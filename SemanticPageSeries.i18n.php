@@ -326,6 +326,7 @@ $messages['lb'] = array(
 	'spssuccess' => '{{PLURAL:$1|Eng Säit gëtt|$1 Säite ginn}} ugeluecht.',
 	'spssuccess-returntoorigin' => 'Zréck op $1',
 	'spserror' => 'Et ass e Feeler geschitt',
+	'spserror-diffnotsupported' => "D'Aktioun 'Diff' gëtt fir  Serie vu Säiten net ënnerstëtzt.",
 	'spserror-previewnotsupported' => "'Kucken ouni ze späicheren' gëtt fir Serie vu Säiten net ënnerstëtzt.",
 	'spserror-formunknown' => 'De Formulaire "$1" gëtt et net.',
 	'spserror-pagegenerationlimitexeeded' => 'Dir hutt probéiert {{PLURAL:$1|eng Säit|$1 Säiten}} ze generéieren. Dat geet iwwert Är Limit vun  {{PLURAL:$2|eng Säit|$1 Säiten}}.',
@@ -485,5 +486,32 @@ $1',
 	'spserror-count-endvaluemalformed' => '结束值不是数字。',
 	'spserror-count-stepvaluemalformed' => '步长值不是数字。',
 	'spserror-count-digitsvaluemalformed' => '位数值不是数字。',
+);
+
+/** Traditional Chinese (中文（繁體）‎) */
+$messages['zh-hant'] = array(
+	'semanticpageseries-desc' => '利用一個[https://www.mediawiki.org/wiki/Extension:Semantic_Forms 語義表單]創建一系列的頁面',
+	'spssuccesstitle' => '創建$1頁面',
+	'spssuccess' => '將會創建{{PLURAL:$1|一個頁面|$1個頁面}}。',
+	'spssuccess-returntoorigin' => '返回到$1',
+	'spserror' => '出現了一個錯誤',
+	'spserror-diffnotsupported' => '頁面系列不支持diff差別比較操作。',
+	'spserror-previewnotsupported' => '頁面系列不支持預覽操作。',
+	'spserror-noiteratorname' => '沒有指定迭代器。你必須在#serieslink解析器函數調用中設置迭代器參數"iterator"。',
+	'spserror-iteratorunknown' => '迭代器" $1 "並不存在。你必須在#serieslink解析器函數調用中更正迭代器參數"iterator"。',
+	'spserror-noformname' => '沒有指定表單名稱。你必須在#serieslink解析器函數中設置表單參數"form"。',
+	'spserror-formunknown' => '表單"$1"並不存在。',
+	'spserror-notargetformname' => '沒有指定目標表單名稱。你必須在#serieslink 解析器函數調用中設置目標表單參數"target form"。',
+	'spserror-notargetfieldname' => '沒有指定目標字段名稱。您必須在#serieslink 解析器函數調用中設置目標字段參數"target field"。',
+	'spserror-iteratorparammissing' => '#serieslink調用中缺少下列迭代器參數：
+$1',
+	'spserror-noiteratordata' => '在已發送的數據中找不到迭代器參數。',
+	'spserror-pagegenerationlimitexeeded' => '您已嘗試生成{{PLURAL:$1|一個頁面|$1個頁面}}。這超過了您的允許極限：{{PLURAL:$2|一個頁面|$2個頁面}}。',
+	'spserror-date-startdatemissing' => '缺少開始日期。',
+	'spserror-date-internalerror' => '創建日期時出現了一個錯誤。這可能是因為格式錯誤的開始或結束日期。',
+	'spserror-count-startvaluemalformed' => '起始值不是數字。',
+	'spserror-count-endvaluemalformed' => '結束值不是數字。',
+	'spserror-count-stepvaluemalformed' => '步長值不是數字。',
+	'spserror-count-digitsvaluemalformed' => '位數值不是數字。',
 );
 
