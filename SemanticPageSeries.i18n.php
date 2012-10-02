@@ -364,7 +364,7 @@ $1',
 	'spserror-count-digitsvaluemalformed' => 'Вредноста на цифрите не е број.',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Event
  */
 $messages['nb'] = array(
@@ -459,7 +459,7 @@ $messages['ur'] = array(
 	'spserror' => 'ایک غلطی واقع ہوئی',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Linforest
  */
 $messages['zh-hans'] = array(
