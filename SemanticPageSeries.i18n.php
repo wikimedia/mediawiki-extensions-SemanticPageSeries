@@ -424,6 +424,29 @@ $1',
 	'spserror-count-digitsvaluemalformed' => 'De cijferwaarde is geen getal.',
 );
 
+/** Swedish (svenska)
+ * @author Martinwiss
+ */
+$messages['sv'] = array(
+	'semanticpageseries-desc' => 'Skapa flera sidor med hjälp av ett formulär som använder [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Form]',
+	'spssuccesstitle' => 'Skapar $1 sidor',
+	'spssuccess' => '{{PLURAL:$1|En sida |$1 sidor}} kommer att skapas.',
+	'spssuccess-returntoorigin' => 'Återgå till $1',
+	'spserror' => 'Ett fel har inträffat',
+	'spserror-diffnotsupported' => 'diff-funktionen kan inte användas för flera sidor samtidigt',
+	'spserror-previewnotsupported' => 'Förhandsgranskning kan inte användas för flera sidor samtidigt',
+	'spserror-noiteratorname' => 'Ingen upprepningsparameter angiven. Du måste ange parametern "iterator" i funktionen #serieslink.',
+	'spserror-iteratorunknown' => 'Upprepningsparametern $1 finns inte. Du msåte korrigera parametern "iterator" i #serieslink-funktionen.',
+	'spserror-noformname' => 'Inget formulärnamn gavs. Du måste ange parametern "form" i #serieslink-funktionen.',
+	'spserror-formunknown' => 'Formuläret "$1" finns inte.',
+	'spserror-date-startdatemissing' => 'Startdatum saknas.',
+	'spserror-date-internalerror' => 'Ett fel inträffade då vi försökte skapa datum. Felet kan bero på felaktigt start- eller slutdatum.',
+	'spserror-count-startvaluemalformed' => 'Startdatumet är inte ett tal.',
+	'spserror-count-endvaluemalformed' => 'Slutvärdet är inte ett tal.',
+	'spserror-count-stepvaluemalformed' => 'Intervall-värdet är inte ett tal.',
+	'spserror-count-digitsvaluemalformed' => 'Siffer-värdet är inte ett tal.',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
