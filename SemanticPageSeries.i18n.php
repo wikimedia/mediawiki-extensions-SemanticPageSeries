@@ -516,7 +516,8 @@ $1',
 	'spserror-count-digitsvaluemalformed' => '位数值不是数字。',
 );
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）‎)
+ */
 $messages['zh-hant'] = array(
 	'semanticpageseries-desc' => '利用一個[https://www.mediawiki.org/wiki/Extension:Semantic_Forms 語義表單]創建一系列的頁面',
 	'spssuccesstitle' => '創建$1頁面',
@@ -542,4 +543,3 @@ $1',
 	'spserror-count-stepvaluemalformed' => '步長值不是數字。',
 	'spserror-count-digitsvaluemalformed' => '位數值不是數字。',
 );
-
