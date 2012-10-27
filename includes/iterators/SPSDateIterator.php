@@ -63,7 +63,7 @@ class SPSDateIterator extends SPSIterator {
 
 				// end date provided as a string (e.g. by datepicker input)
 				$end = trim( $data['end'] );
-				
+
 			} else if ( is_array( $data['end']) &&
 				array_key_exists( 'day', $data['end'] ) &&
 				array_key_exists( 'month', $data['end'] ) &&
@@ -74,7 +74,9 @@ class SPSDateIterator extends SPSIterator {
 					trim( $data['end']['month'] ) . '/' .
 					trim( $data['end']['day'] );
 
-			} else {
+			}
+
+			if ( is_null( $end ) || $end === '' ) {
 				$end = $start;
 			}
 		}
