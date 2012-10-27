@@ -117,22 +117,12 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 		// pageIsSource
 		$pageIsSource = ( $pageContents != null );
 
-		// pageNameFormula
-		// parse the form to see if it has a 'page name' value set
-		$matches;
-		if ( preg_match( '/{{{info.*page name\s*=\s*(.*)}}}/m', $formDefinition, $matches ) ) {
-			$pageNameElements = SFUtils::getFormTagComponents( $matches[1] );
-			$pageNameFormula = $pageNameElements[0];
-		} else {
-			return 'sf_formedit_badurl';
-		}
-
 		// get the iterator parameters
 		$iteratorData = $this->buildIteratorParameters( $request );
 
 		// Call SFFormPrinter::formHTML
 		list ( $formText, $javascriptText, $dataText, $formPageTitle, $generatedPageName ) =
-			$sfgFormPrinter->formHTML( $formDefinition, $formSubmitted, $pageIsSource, $formArticle->getID(), $pageContents, '', $pageNameFormula );
+			$sfgFormPrinter->formHTML( $formDefinition, $formSubmitted, $pageIsSource, $formArticle->getID(), $pageContents );
 
 		// Set Special page main header;
 		// override the default title for this page if a title was specified in the form
