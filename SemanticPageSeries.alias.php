@@ -54,3 +54,8 @@ $specialPageAliases['nb'] = array(
 $specialPageAliases['nl'] = array(
 	'SeriesEdit' => array( 'SeriesBewerken' ),
 );
+
+/** Simplified Chinese (中文（简体）‎) */
+$specialPageAliases['zh-hans'] = array(
+	'SeriesEdit' => array( '系列编辑' ),
+);
