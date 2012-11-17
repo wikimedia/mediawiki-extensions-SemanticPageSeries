@@ -35,6 +35,11 @@ $specialPageAliases['gsw'] = array(
 	'SeriesEdit' => array( 'Syteabfolg_bearbeite' ),
 );
 
+/** Italian (italiano) */
+$specialPageAliases['it'] = array(
+	'SeriesEdit' => array( 'ModificaInSerie' ),
+);
+
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
 	'SeriesEdit' => array( '시리즈편집' ),
