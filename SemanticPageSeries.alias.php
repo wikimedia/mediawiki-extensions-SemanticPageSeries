@@ -60,6 +60,11 @@ $specialPageAliases['nl'] = array(
 	'SeriesEdit' => array( 'SeriesBewerken' ),
 );
 
+/** Sicilian (sicilianu) */
+$specialPageAliases['scn'] = array(
+	'SeriesEdit' => array( 'ModificaInSerie' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'SeriesEdit' => array( '系列编辑' ),
