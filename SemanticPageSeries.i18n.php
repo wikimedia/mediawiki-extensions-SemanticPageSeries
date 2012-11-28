@@ -148,6 +148,29 @@ $1',
 	'spserror-count-digitsvaluemalformed' => 'El valor de los dígitos no es un número.',
 );
 
+/** Finnish (suomi)
+ * @author Nedergard
+ */
+$messages['fi'] = array(
+	'semanticpageseries-desc' => 'Mahdollistaa sivujen sarjan luonnin yhdestä [https://www.mediawiki.org/wiki/Extension:Semantic_Forms semanttisesta lomakkeesta]',
+	'spssuccesstitle' => '$1 -sivuja luodaan',
+	'spssuccess' => '{{PLURAL:$1|Yksi sivu|$1 sivua}} luodaan.',
+	'spssuccess-returntoorigin' => 'Palaa sivulle $1',
+	'spserror' => 'Tapahtui virhe.',
+	'spserror-previewnotsupported' => 'Sivujen sarjalla ei ole esikatselutoimintoa',
+	'spserror-noformname' => 'Lomakkeen nimi puuttuu. "form"-parametri on määriteltävä #serieslink -jäsennintoiminnossa.',
+	'spserror-formunknown' => 'Lomaketta ”$1” ei ole.',
+	'spserror-notargetformname' => 'Kohdelomakkeen nimi puuttuu. "target form" -parametri on määriteltävä #serieslink -jäsennintoiminnon kutsussa.',
+	'spserror-notargetfieldname' => 'Kohdekentän nimi puuttuu. "target field" -parametri on määriteltävä #serieslink -jäsennintoiminnon kutsussa.',
+	'spserror-pagegenerationlimitexeeded' => 'Yritit generoida {{PLURAL:$1|yhden sivun|$1 sivua}}. Käyttöoikeutesi sallivat kuitenkin vain {{PLURAL:$2|yhden sivun|$2 sivun}} generoinnin.',
+	'spserror-date-startdatemissing' => 'Alkupäivämäärä puuttuu.',
+	'spserror-date-internalerror' => 'Virhe päivämäärien luonnissa. Se voi johtua virheellisestä alku- tai loppupäivämäärästä.',
+	'spserror-count-startvaluemalformed' => 'Alun arvo ei ole numero.',
+	'spserror-count-endvaluemalformed' => 'Lopun arvo ei ole numero.',
+	'spserror-count-stepvaluemalformed' => 'Askeleen arvo ei ole numero.',
+	'spserror-count-digitsvaluemalformed' => 'Luvun arvo ei ole numero.',
+);
+
 /** French (français)
  * @author Gomoko
  */
