@@ -509,6 +509,14 @@ $messages['tl'] = array(
 	'spserror-count-digitsvaluemalformed' => 'Ang halaga ng mga tambilang ay hindi isang bilang.',
 );
 
+/** Ukrainian (українська)
+ * @author Base
+ */
+$messages['uk'] = array(
+	'semanticpageseries-desc' => 'Створення серій сторінок із одної [https://www.mediawiki.org/wiki/Extension:Semantic_Forms семантичної форми]',
+	'spssuccesstitle' => 'Створення $1 {{PLURAL:$1|сторінки|сторінок}}',
+);
+
 /** Urdu (اردو)
  * @author පසිඳු කාවින්ද
  */
