@@ -453,6 +453,13 @@ $1',
 	'spserror-count-digitsvaluemalformed' => 'De cijferwaarde is geen getal.',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'spserror' => 'දෝෂයක් හට ගැනුණි',
+);
+
 /** Swedish (svenska)
  * @author Martinwiss
  */
