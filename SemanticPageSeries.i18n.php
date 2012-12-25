@@ -453,6 +453,13 @@ $1',
 	'spserror-count-digitsvaluemalformed' => 'De cijferwaarde is geen getal.',
 );
 
+/** Romanian (română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'spssuccess-returntoorigin' => 'Revenire la $1',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
