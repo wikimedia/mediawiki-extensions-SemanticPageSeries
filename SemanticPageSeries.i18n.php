@@ -148,6 +148,16 @@ $1',
 	'spserror-count-digitsvaluemalformed' => 'El valor de los dígitos no es un número.',
 );
 
+/** Estonian (eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'spserror' => 'Ilmnes viga.',
+	'spserror-date-startdatemissing' => 'Alguskuupäev puudub.',
+	'spserror-count-startvaluemalformed' => 'Alguse väärtus ei ole number.',
+	'spserror-count-endvaluemalformed' => 'Lõpuväärtus ei ole number',
+);
+
 /** Finnish (suomi)
  * @author Nedergard
  */
@@ -451,6 +461,35 @@ $1',
 	'spserror-count-endvaluemalformed' => 'De eindwaarde is geen getal.',
 	'spserror-count-stepvaluemalformed' => 'De stapwaarde is geen getal.',
 	'spserror-count-digitsvaluemalformed' => 'De cijferwaarde is geen getal.',
+);
+
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'semanticpageseries-desc' => 'Creé na serie ëd pagine da un [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Formolari Semàntich]',
+	'spssuccesstitle' => 'Creé $1 pagine',
+	'spssuccess' => '{{PLURAL:$1|Na pagina|$1 pagine}} a saran creà.',
+	'spssuccess-returntoorigin' => 'Torna a $1',
+	'spserror' => "A l'é capitaje n'eror",
+	'spserror-diffnotsupported' => "L'assion diff a l'é pa apogià për serie ëd pagine.",
+	'spserror-previewnotsupported' => "L'assion prima a l'é pa apogià për serie ëd pagine.",
+	'spserror-noiteratorname' => 'Gnun iterador specificà. It deuve amposté ël paràmetr "iterador" ant la ciamà ëd funsion dël parser #serieslink',
+	'spserror-iteratorunknown' => 'L\'iterador "$1" a esist pa. It deuve coregi ël paràmetr "iterador" ant la ciamà ëd funsion dël parser #serieslink',
+	'spserror-noformname' => 'Gnun nòm ëd forma dàit. It deuve amposté ël paràmetr "form" ant la funsion ëd parser #serieslink.',
+	'spserror-formunknown' => 'La forma "$1" a esist pa.',
+	'spserror-notargetformname' => 'Gnun nòm ëd formolari ëd destinasiion specificà. It deuve amposté ël paràmetr "formolari destinassion" ant la ciamà ëd funsion dël parser #serieslink',
+	'spserror-notargetfieldname' => 'Gnun nòm ëd camp destinassion specificà. It deuve amposté ël paràmetr "camp destinassion" ant la ciamà ëd funsion dël parser #serieslink',
+	'spserror-iteratorparammissing' => "Ij paràmetr dl'iterador ch'a ven-o a son mancant ant la ciamà #serieskink:
+$1",
+	'spserror-noiteratordata' => "Gnun paràmetr dl'iterador trovà ant ij dat spedì.",
+	'spserror-pagegenerationlimitexeeded' => "It l'has provà a generé {{PLURAL:$1|na pagina|$1 pagine}}. Sòn a passa ij tò l'ìmit përmëttù ëd {{PLURAL:$2|na pagina|$2 pagine}}.",
+	'spserror-date-startdatemissing' => "La data d'inissi a l'é mancanta.",
+	'spserror-date-internalerror' => "A l'é capitaje n'eror an mente as creavo le date. Sòn a podrìa esse dovù a na data inissial o final malformà.",
+	'spserror-count-startvaluemalformed' => "La data inissial a l'é pa un nùmer.",
+	'spserror-count-endvaluemalformed' => "La data final a l'é pa un nùmer.",
+	'spserror-count-stepvaluemalformed' => "Ël valor dël pass a l'é pa un nùmer.",
+	'spserror-count-digitsvaluemalformed' => "Ël valor dla sifra a l'é pa un nùmer.",
 );
 
 /** Romanian (română)
