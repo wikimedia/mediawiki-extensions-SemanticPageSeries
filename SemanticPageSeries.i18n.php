@@ -80,6 +80,15 @@ $messages['br'] = array(
 	'spserror' => 'Ur fazi zo bet',
 );
 
+/** Czech (česky)
+ * @author Vks
+ */
+$messages['cs'] = array(
+	'spserror-formunknown' => 'Formulář „$1“ neexistuje.',
+	'spserror-date-startdatemissing' => 'Chybí počáteční datum.',
+	'spserror-count-stepvaluemalformed' => 'Hodnota kroku není číslo.',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Metalhead64
@@ -150,12 +159,13 @@ $1',
 
 /** Estonian (eesti)
  * @author Avjoska
+ * @author Pikne
  */
 $messages['et'] = array(
 	'spserror' => 'Ilmnes viga.',
 	'spserror-date-startdatemissing' => 'Alguskuupäev puudub.',
-	'spserror-count-startvaluemalformed' => 'Alguse väärtus ei ole number.',
-	'spserror-count-endvaluemalformed' => 'Lõpuväärtus ei ole number',
+	'spserror-count-startvaluemalformed' => 'Algusväärtus ei ole number.',
+	'spserror-count-endvaluemalformed' => 'Lõppväärtus ei ole number.',
 );
 
 /** Finnish (suomi)
@@ -534,6 +544,17 @@ $messages['sv'] = array(
 	'spserror-count-digitsvaluemalformed' => 'Siffer-värdet är inte ett tal.',
 );
 
+/** Tamil (தமிழ்)
+ * @author Shanmugamp7
+ */
+$messages['ta'] = array(
+	'spserror-date-startdatemissing' => 'ஆரம்ப தேதியை காணவில்லை',
+	'spserror-count-startvaluemalformed' => 'ஆரம்பித்தல் மதிப்பு எண் அல்ல.',
+	'spserror-count-endvaluemalformed' => 'இறுதி மதிப்பு எண் அல்ல',
+	'spserror-count-stepvaluemalformed' => 'படிநிலை மதிப்பு மதிப்பு எண் அல்ல.',
+	'spserror-count-digitsvaluemalformed' => 'இலக்கங்களின் மதிப்பு எண் இல்லை.',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
@@ -564,10 +585,13 @@ $messages['tl'] = array(
 
 /** Ukrainian (українська)
  * @author Base
+ * @author Steve.rusyn
  */
 $messages['uk'] = array(
 	'semanticpageseries-desc' => 'Створення серій сторінок із одної [https://www.mediawiki.org/wiki/Extension:Semantic_Forms семантичної форми]',
 	'spssuccesstitle' => 'Створення $1 {{PLURAL:$1|сторінки|сторінок}}',
+	'spssuccess-returntoorigin' => 'Повернутись до $1',
+	'spserror' => 'Сталася помилка',
 );
 
 /** Urdu (اردو)
