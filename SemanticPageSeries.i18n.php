@@ -384,6 +384,13 @@ $messages['lb'] = array(
 	'spserror-count-endvaluemalformed' => 'De Schlusswäert ass keng Zuel.',
 );
 
+/** Latvian (latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'spserror' => 'Notika kļūda',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
