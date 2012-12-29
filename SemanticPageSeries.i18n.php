@@ -599,6 +599,7 @@ $messages['uk'] = array(
 	'spssuccesstitle' => 'Створення $1 {{PLURAL:$1|сторінки|сторінок}}',
 	'spssuccess-returntoorigin' => 'Повернутись до $1',
 	'spserror' => 'Сталася помилка',
+	'spserror-formunknown' => 'Форма «$1» не існує.',
 );
 
 /** Urdu (اردو)
