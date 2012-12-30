@@ -520,7 +520,15 @@ $messages['ro'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'spssuccesstitle' => '$1 පිටු තනමින්',
+	'spssuccess-returntoorigin' => '$1 ට නැවත යන්න',
 	'spserror' => 'දෝෂයක් හට ගැනුණි',
+	'spserror-formunknown' => '"$1" ආකෘතිපත්‍රය නොපවතී.',
+	'spserror-date-startdatemissing' => 'ආරම්භක දිනය දක්නට නොමැත.',
+	'spserror-count-startvaluemalformed' => 'ආරම්භක අගය අංකයක් නොවේ.',
+	'spserror-count-endvaluemalformed' => 'අවසන් අගය අංකයක් නොවේ.',
+	'spserror-count-stepvaluemalformed' => 'අදියර අගය අංකයක් නොවේ.',
+	'spserror-count-digitsvaluemalformed' => 'සංකේතාංක අගය අංකයක් නොවේ.',
 );
 
 /** Swedish (svenska)
