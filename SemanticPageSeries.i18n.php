@@ -481,21 +481,22 @@ $1',
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'semanticpageseries-desc' => 'Creé na serie ëd pagine da un [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Formolari Semàntich]',
-	'spssuccesstitle' => 'Creé $1 pagine',
-	'spssuccess' => '{{PLURAL:$1|Na pagina|$1 pagine}} a saran creà.',
+	'semanticpageseries-desc' => 'Creé na serie ëd pàgine da un [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Formolari Semàntich]',
+	'spssuccesstitle' => 'Creé $1 pàgine',
+	'spssuccess' => '{{PLURAL:$1|Na pàgina a sarà|$1 pàgine a saran}} creà.',
 	'spssuccess-returntoorigin' => 'Torna a $1',
 	'spserror' => "A l'é capitaje n'eror",
-	'spserror-diffnotsupported' => "L'assion diff a l'é pa apogià për serie ëd pagine.",
-	'spserror-previewnotsupported' => "L'assion prima a l'é pa apogià për serie ëd pagine.",
-	'spserror-noiteratorname' => 'Gnun iterador specificà. It deuve amposté ël paràmetr "iterador" ant la ciamà ëd funsion dël parser #serieslink',
-	'spserror-iteratorunknown' => 'L\'iterador "$1" a esist pa. It deuve coregi ël paràmetr "iterador" ant la ciamà ëd funsion dël parser #serieslink',
-	'spserror-noformname' => 'Gnun nòm ëd forma dàit. It deuve amposté ël paràmetr "form" ant la funsion ëd parser #serieslink.',
-	'spserror-formunknown' => 'La forma "$1" a esist pa.',
-	'spserror-notargetformname' => 'Gnun nòm ëd formolari ëd destinasiion specificà. It deuve amposté ël paràmetr "formolari destinassion" ant la ciamà ëd funsion dël parser #serieslink',
+	'spserror-diffnotsupported' => "L'assion diff a l'é nen mantnùa për le serie ëd pàgine.",
+	'spserror-previewnotsupported' => "L'assion prima a l'é mantnùa për le serie ëd pàgine.",
+	'spserror-noiteratorname' => "Gnun iterator specificà. A dev amposté ël paràmetr «iterator» ant la ciamada ëd funsion #serieslink ëd l'analisator",
+	'spserror-iteratorunknown' => "L'iterator «$1» a esist pa. A dev corege ël paràmetr «iterator» ant la ciamada ëd funsion #serieslink ëd l'analisator.",
+	'spserror-noformname' => "Gnun nòm ëd formolari butà. A dev amposté ël paràmetr «form» ant la funsion #serieslink ëd l'analisator.",
+	'spserror-formunknown' => 'Ël formolari «$1» a esist pa.',
+	'spserror-notargetformname' => "Gnun nòm ëd formolari ëd destinassion specificà. A dev amposté ël paràmetr «target form» ant la ciamada ëd funsion #serieslink ëd l'analisator.",
 	'spserror-notargetfieldname' => 'Gnun nòm ëd camp destinassion specificà. It deuve amposté ël paràmetr "camp destinassion" ant la ciamà ëd funsion dël parser #serieslink',
 	'spserror-iteratorparammissing' => "Ij paràmetr dl'iterador ch'a ven-o a son mancant ant la ciamà #serieskink:
 $1",
