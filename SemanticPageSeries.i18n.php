@@ -497,17 +497,17 @@ $messages['pms'] = array(
 	'spserror-noformname' => "Gnun nòm ëd formolari butà. A dev amposté ël paràmetr «form» ant la funsion #serieslink ëd l'analisator.",
 	'spserror-formunknown' => 'Ël formolari «$1» a esist pa.',
 	'spserror-notargetformname' => "Gnun nòm ëd formolari ëd destinassion specificà. A dev amposté ël paràmetr «target form» ant la ciamada ëd funsion #serieslink ëd l'analisator.",
-	'spserror-notargetfieldname' => 'Gnun nòm ëd camp destinassion specificà. It deuve amposté ël paràmetr "camp destinassion" ant la ciamà ëd funsion dël parser #serieslink',
-	'spserror-iteratorparammissing' => "Ij paràmetr dl'iterador ch'a ven-o a son mancant ant la ciamà #serieskink:
+	'spserror-notargetfieldname' => "Gnun nòm ëd camp destinassion specificà. A dev amposté ël paràmetr «target field» ant la ciamada a la funsion #serieslink ëd l'analisator",
+	'spserror-iteratorparammissing' => "Ij paràmetr dl'iterator sì-dapress a-i son nen ant la ciamada a #serieskink:
 $1",
-	'spserror-noiteratordata' => "Gnun paràmetr dl'iterador trovà ant ij dat spedì.",
-	'spserror-pagegenerationlimitexeeded' => "It l'has provà a generé {{PLURAL:$1|na pagina|$1 pagine}}. Sòn a passa ij tò l'ìmit përmëttù ëd {{PLURAL:$2|na pagina|$2 pagine}}.",
+	'spserror-noiteratordata' => "Gnun paràmetr dl'iterator trovà ant ij dat spedì.",
+	'spserror-pagegenerationlimitexeeded' => "A l'ha provà a generé {{PLURAL:$1|na pàgina|$1 pàgine}}. Sòn a passa ij sò lìmit autorisà ëd {{PLURAL:$2|na pàgina|$2 pàgine}}.",
 	'spserror-date-startdatemissing' => "La data d'inissi a l'é mancanta.",
-	'spserror-date-internalerror' => "A l'é capitaje n'eror an mente as creavo le date. Sòn a podrìa esse dovù a na data inissial o final malformà.",
+	'spserror-date-internalerror' => "A l'é capitaje n'eror durant la creassion ëd le date. Sòn a podrìa esse dovù a na data inissial o final malformà.",
 	'spserror-count-startvaluemalformed' => "La data inissial a l'é pa un nùmer.",
 	'spserror-count-endvaluemalformed' => "La data final a l'é pa un nùmer.",
 	'spserror-count-stepvaluemalformed' => "Ël valor dël pass a l'é pa un nùmer.",
-	'spserror-count-digitsvaluemalformed' => "Ël valor dla sifra a l'é pa un nùmer.",
+	'spserror-count-digitsvaluemalformed' => "Ël valor dla gifra a l'é pa un nùmer.",
 );
 
 /** Romanian (română)
