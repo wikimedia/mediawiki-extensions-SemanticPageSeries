@@ -367,6 +367,23 @@ $messages['ja'] = array(
 	'spserror-count-endvaluemalformed' => '終了値が数値ではありません。',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'semanticpageseries-desc' => 'იქმნება გვერდების სერია ერთი [https://www.mediawiki.org/wiki/Extension:Semantic_Forms სემანტიკური ფორმიდან]',
+	'spssuccesstitle' => 'იქმნება $1 გვერდი',
+	'spssuccess' => 'შეიქმნება {{PLURAL:$1|ერთი გვერდი|$1 გვერდი}}.',
+	'spssuccess-returntoorigin' => 'დაბრუნება $1–ზე',
+	'spserror' => 'მოხდა შეცდომა',
+	'spserror-formunknown' => 'ფორმა „$1“ არ არსებობს.',
+	'spserror-date-startdatemissing' => 'დაწყების თარიღი აკლია.',
+	'spserror-count-startvaluemalformed' => 'საწყისი მნიშვნელობა არ არის რიცხვი.',
+	'spserror-count-endvaluemalformed' => 'დასასრულის მნიშვნელობა არ არის რიცხვი.',
+	'spserror-count-stepvaluemalformed' => 'ნაბიჯის მნიშვნელობა არ არის რიცხვი.',
+	'spserror-count-digitsvaluemalformed' => 'ციფრული მნიშვნელობა არ არის რიცხვი.',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
