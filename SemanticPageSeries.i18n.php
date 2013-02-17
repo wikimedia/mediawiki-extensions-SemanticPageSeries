@@ -39,6 +39,7 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author F.trott
  * @author Raymond
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
 	'semanticpageseries-desc' => '{{desc}}',
@@ -54,7 +55,8 @@ $messages['qqq'] = array(
 	'spserror-formunknown' => 'An error message',
 	'spserror-notargetformname' => 'An error message. The name of the parameter in quotes should not be translated!',
 	'spserror-notargetfieldname' => 'An error message. The name of the parameter in quotes should not be translated!',
-	'spserror-iteratorparammissing' => 'An error message. See the [[wikipedia:Iterator | wikipedia page]] for the meaning of iterator. Do not translate <code>#serieslink</code>.',
+	'spserror-iteratorparammissing' => '{{doc-important|Do not translate "<code>#serieslink</code>".}}
+An error message. See the [[wikipedia:Iterator | wikipedia page]] for the meaning of iterator.',
 	'spserror-noiteratordata' => 'An error message. See the [[wikipedia:Iterator | wikipedia page]] for the meaning of iterator.',
 	'spserror-pagegenerationlimitexeeded' => 'An error message',
 	'spserror-date-startdatemissing' => 'An error message',
