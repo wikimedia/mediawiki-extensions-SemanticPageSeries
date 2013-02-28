@@ -42,7 +42,7 @@ $messages['en'] = array(
  * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'semanticpageseries-desc' => '{{desc}}',
+	'semanticpageseries-desc' => '{{desc|name=Semantic Page Series|url=http://www.mediawiki.org/wiki/Extension:Semantic_Page_Series}}',
 	'spssuccesstitle' => 'The title of a page containing a success message. The parameter will contain the category of pages to be created, e.g. Event',
 	'spssuccess' => 'A success message. The parameter will contain a number.',
 	'spssuccess-returntoorigin' => 'Provides navigation back to the origin page. The parameter is the link.',
