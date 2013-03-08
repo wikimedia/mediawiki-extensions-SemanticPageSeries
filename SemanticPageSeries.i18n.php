@@ -75,11 +75,14 @@ $messages['bjn'] = array(
 );
 
 /** Breton (brezhoneg)
+ * @author Fohanno
  * @author Fulup
  */
 $messages['br'] = array(
+	'spssuccesstitle' => 'O krouiñ $1 pajenn',
 	'spssuccess-returntoorigin' => 'Distreiñ da $1',
 	'spserror' => 'Ur fazi zo bet',
+	'spserror-formunknown' => 'N\'eus ket eus ar stumm "$1".',
 );
 
 /** Czech (česky)
