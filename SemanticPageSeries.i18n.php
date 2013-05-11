@@ -28,7 +28,7 @@ $messages['en'] = array(
 	'spserror-pagegenerationlimitexeeded' => 'You tried to generate {{PLURAL:$1|one page|$1 pages}}. This exeeds your allowed limit of {{PLURAL:$2|one page|$2 pages}}.',
 
 	'spserror-date-startdatemissing' => 'The start date is missing.',
-	'spserror-date-internalerror' => 'An error occurred while creating the dates. This could be due to a malformed start or end date.',
+	'spserror-date-internalerror' => 'An error occurred while creating the dates: $1',
 	
 	'spserror-count-startvaluemalformed' => 'The start value is not a number.',
 	'spserror-count-endvaluemalformed' => 'The end value is not a number.',

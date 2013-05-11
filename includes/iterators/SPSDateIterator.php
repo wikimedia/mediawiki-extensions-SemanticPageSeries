@@ -84,29 +84,58 @@ class SPSDateIterator extends SPSIterator {
 		$period = SPSUtils::fromArray( $data, 'period', 1 );
 		$unit   = SPSUtils::fromArray( $data, 'unit', 'day' );
 
-		//prepare params for getDatesForRecurringEvent
-		$params = array (
-			'property=SomeDummyProperty',
-			'start=' . $start,
-			'end=' . $end,
-			'period=' . $period,
-			'unit=' . $unit,
+		// TODO: SMWSetRecurringEvent does not exist from SMW 1.9 onwards
+		// remove when compatibility to SMW pre1.9 is dropped
+		if ( class_exists( 'SMWSetRecurringEvent' ) ) {
+			//prepare params for getDatesForRecurringEvent
+			$params = array(
+				'property=SomeDummyProperty',
+				'start=' . $start,
+				'end=' . $end,
+				'period=' . $period,
+				'unit=' . $unit,
 			);
 
-		$values = SMWSetRecurringEvent::getDatesForRecurringEvent($params);
+			$values = SMWSetRecurringEvent::getDatesForRecurringEvent( $params );
 
-		if ( $values === null ) {
-			throw new SPSException( SPSUtils::buildMessage( 'spserror-date-internalerror' ) );
+			if ( $values === null ) {
+				throw new SPSException( SPSUtils::buildMessage( 'spserror-date-internalerror', 'Unknown error. This could be due to a malformed start or end date.' ) );
+			}
+			
+			$values = $values[1];
+			
+		} else { // SMW 1.9 and later
+			//prepare params for getDatesForRecurringEvent
+			$params = array(
+				'property' => array( 'SomeDummyProperty' ),
+				'start' => array( $start ),
+				'end' => array( $end ),
+				'period' => array( $period ),
+				'unit' => array( $unit ),
+			);
+
+			$settings = SMW\Settings::newFromArray( array(
+						'smwgDefaultNumRecurringEvents' => $GLOBALS['smwgDefaultNumRecurringEvents'],
+						'smwgMaxNumRecurringEvents' => $GLOBALS['smwgMaxNumRecurringEvents'] )
+			);
+
+			$events = new SMW\RecurringEvents( $params, $settings );
+
+			$values = $events->getDates();
+
+			if ( $values === null || count( $events->getErrors() ) > 0 ) {
+				throw new SPSException( SPSUtils::buildMessage( 'spserror-date-internalerror', implode( ' ', $events->getErrors() ) ) );
+			}
 		}
 
 		// if the first date did not contain a time, remove the time from all
 		// generated dates
-		if ( preg_match( '/.:../', $values[1][0] ) === 0 ) {
-			foreach ( $values[1] as $key => $value ) {
-				$values[1][$key] = trim( preg_replace( '/..:..:../', '', $value ) );
+		if ( preg_match( '/.:../', $values[0] ) === 0 ) {
+			foreach ( $values as $key => $value ) {
+				$values[$key] = trim( preg_replace( '/..:..:../', '', $value ) );
 			}
 		}
 
-		return $values[1];
+		return $values;
 	}
 }

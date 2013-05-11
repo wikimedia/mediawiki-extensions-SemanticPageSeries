@@ -32,28 +32,44 @@ class SPSPageCreationJob extends Job {
 		
 		$oldUser = $wgUser;
 		$wgUser = User::newFromId( $this->params['user'] );
-		
+
 		unset( $this->params['user'] );
 		
 		$this->params['form'] = $this->title->getText();
 		
-		$handler = new SFAutoeditAPI( null, 'sfautoedit' );
-		$handler->isApiQuery( false );
+		$handler = new SFAutoeditAPI( new ApiMain(), 'sfautoedit' );
+
+		// TODO: Method is removed in SF 2.5 onwards. Remove the whole if-clause
+		// when compatibility to SF pre2.5 is dropped
+		if ( method_exists( $handler, 'isApiQuery' ) ) {
+			$handler->isApiQuery( false );
+		}
+		
 		$handler->setOptions( $this->params );
 
-		$result = $handler->storeSemanticData( false );
+		// TODO: Method storeSemanticData is removed in SF 2.5 onwards. Clean this up
+		// when compatibility to SF pre2.5 is dropped
+		if ( method_exists( $handler, 'storeSemanticData' ) ) {
+			$result = $handler->storeSemanticData( false );
 
-		// wrap result in ok/error message
-		if ( $result === true ) {
-
-			$options = $handler->getOptions();
-			$result = wfMsg( 'sf_autoedit_success', $options['target'], $options['form']) ;
+			// wrap result in ok/error message
+			if ( $result === true ) {
+				$options = $handler->getOptions();
+				$result = wfMsg( 'sf_autoedit_success', $options['target'], $options['form'] );
+			} else {
+				$result = wfMsgReplaceArgs( '$1', array( $result ) );
+			}
 		} else {
 
-			$result = wfMsgReplaceArgs( '$1', array($result) );
+			try {
+				$handler->execute();
+				$options = $handler->getOptions();
+				$result = wfMsg( 'sf_autoedit_success', $options['target'], $options['form'] );
+			} catch ( MWException $e ) {
+				$result = wfMsgReplaceArgs( '$1', array( $result ) );
+			}
 		}
 
-		
 		$this->params = array( 'result' => $result, 'user' => $wgUser->getName() );
 		wfDebugLog( 'sps', 'Page Creation Job: ' . $result );
 
