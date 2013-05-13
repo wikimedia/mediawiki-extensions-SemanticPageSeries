@@ -60,7 +60,8 @@ An error message. See the [[wikipedia:Iterator | wikipedia page]] for the meanin
 	'spserror-noiteratordata' => 'An error message. See the [[wikipedia:Iterator | wikipedia page]] for the meaning of iterator.',
 	'spserror-pagegenerationlimitexeeded' => 'An error message',
 	'spserror-date-startdatemissing' => 'An error message',
-	'spserror-date-internalerror' => 'An error message',
+	'spserror-date-internalerror' => 'An error message. "the dates" doesn\'t contain times. Parameters:
+* $1 - "Unknown error. This could be due to a malformed start or end date." (in English), or a list of errors',
 	'spserror-count-startvaluemalformed' => 'An error message',
 	'spserror-count-endvaluemalformed' => 'An error message',
 	'spserror-count-stepvaluemalformed' => 'An error message',
@@ -117,7 +118,7 @@ $1',
 	'spserror-noiteratordata' => 'Die gesendeten Daten enthalten keine Parameter zum Seitenfolgebezeichner.',
 	'spserror-pagegenerationlimitexeeded' => 'Es {{PLURAL:$1|sollte eine Seite|sollten $1 Seiten}} erstellt werden. Diese Anzahl übertrifft den zulässigen Grenzwert von {{PLURAL:$2|einer Seite|$2 Seiten}}.',
 	'spserror-date-startdatemissing' => 'Es fehlt das Startdatum.',
-	'spserror-date-internalerror' => 'Beim Erstellen der Daten ist ein Fehler aufgetreten. Der Grund könnte ein falsches Start- oder Enddatum sein.',
+	'spserror-date-internalerror' => 'Beim Erstellen der Daten ist ein Fehler aufgetreten: $1',
 	'spserror-count-startvaluemalformed' => 'Der Startwert ist keine Zahl.',
 	'spserror-count-endvaluemalformed' => 'Der Endwert ist keine Zahl.',
 	'spserror-count-stepvaluemalformed' => 'Der Schrittwert ist keine Zahl.',
@@ -175,6 +176,7 @@ $messages['et'] = array(
 
 /** Finnish (suomi)
  * @author Nedergard
+ * @author Nike
  */
 $messages['fi'] = array(
 	'semanticpageseries-desc' => 'Mahdollistaa sivujen sarjan luonnin yhdestä [https://www.mediawiki.org/wiki/Extension:Semantic_Forms semanttisesta lomakkeesta]',
@@ -195,7 +197,7 @@ $1',
 	'spserror-noiteratordata' => 'Lähetyssä datassa ei ollut iteraattoriparametreja.',
 	'spserror-pagegenerationlimitexeeded' => 'Yritit generoida {{PLURAL:$1|yhden sivun|$1 sivua}}. Käyttöoikeutesi sallivat kuitenkin vain {{PLURAL:$2|yhden sivun|$2 sivun}} generoinnin.',
 	'spserror-date-startdatemissing' => 'Alkupäivämäärä puuttuu.',
-	'spserror-date-internalerror' => 'Virhe päivämäärien luonnissa. Se voi johtua virheellisestä alku- tai loppupäivämäärästä.',
+	'spserror-date-internalerror' => 'Päivämäärien luominen epäonnistui: $1',
 	'spserror-count-startvaluemalformed' => 'Alun arvo ei ole numero.',
 	'spserror-count-endvaluemalformed' => 'Lopun arvo ei ole numero.',
 	'spserror-count-stepvaluemalformed' => 'Askeleen arvo ei ole numero.',
@@ -224,7 +226,7 @@ $1",
 	'spserror-noiteratordata' => "Aucun paramètre de l'itérateur n'a été trouvé dans les données envoyées.",
 	'spserror-pagegenerationlimitexeeded' => 'Vous avez essayé de générer {{PLURAL:$1|une page|$1 pages}}. Cela dépasse votre limite autorisée de {{PLURAL:$2|une page|$2 pages}}.',
 	'spserror-date-startdatemissing' => 'La date de début est manquante.',
-	'spserror-date-internalerror' => "Une erreur s'est produite lors de la création des dates. Cela pourrait être dû à une date de début ou de fin mal formée.",
+	'spserror-date-internalerror' => "Une erreur s'est produite lors de la création des dates : $1",
 	'spserror-count-startvaluemalformed' => "La valeur de départ n'est pas un nombre.",
 	'spserror-count-endvaluemalformed' => "La valeur de fin n'est pas un nombre.",
 	'spserror-count-stepvaluemalformed' => "La valeur de l'incrément n'est pas un nombre.",
@@ -670,6 +672,7 @@ $1',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Simon Shek
  */
 $messages['zh-hant'] = array(
 	'semanticpageseries-desc' => '利用一個[https://www.mediawiki.org/wiki/Extension:Semantic_Forms 語義表單]創建一系列的頁面',
@@ -690,7 +693,7 @@ $1',
 	'spserror-noiteratordata' => '在已發送的數據中找不到迭代器參數。',
 	'spserror-pagegenerationlimitexeeded' => '您已嘗試生成{{PLURAL:$1|一個頁面|$1個頁面}}。這超過了您的允許極限：{{PLURAL:$2|一個頁面|$2個頁面}}。',
 	'spserror-date-startdatemissing' => '缺少開始日期。',
-	'spserror-date-internalerror' => '創建日期時出現了一個錯誤。這可能是因為格式錯誤的開始或結束日期。',
+	'spserror-date-internalerror' => '創建日期時出現錯誤：$1',
 	'spserror-count-startvaluemalformed' => '起始值不是數字。',
 	'spserror-count-endvaluemalformed' => '結束值不是數字。',
 	'spserror-count-stepvaluemalformed' => '步長值不是數字。',
