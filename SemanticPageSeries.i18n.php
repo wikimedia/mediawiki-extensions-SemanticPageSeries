@@ -541,6 +541,18 @@ $messages['ro'] = array(
 	'spssuccess-returntoorigin' => 'Revenire la $1',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'spssuccess-returntoorigin' => 'Tuèrne a $1',
+	'spserror' => "Ave assute 'n'errore",
+	'spserror-count-startvaluemalformed' => "'U valore iniziale non g'è 'nu numere.",
+	'spserror-count-endvaluemalformed' => "'U valore finale non g'è 'nu numere.",
+	'spserror-count-stepvaluemalformed' => "'U valore d'u passe non g'è 'nu numere.",
+	'spserror-count-digitsvaluemalformed' => "'U valore digitale non g'è 'nu numere.",
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
