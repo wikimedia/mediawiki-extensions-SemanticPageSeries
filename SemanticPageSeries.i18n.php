@@ -272,6 +272,13 @@ $1',
 	'spserror-count-digitsvaluemalformed' => 'O valor dos díxitos non é un número.',
 );
 
+/** Hebrew (עברית)
+ * @author ExampleTomer
+ */
+$messages['he'] = array(
+	'spserror-date-internalerror' => 'אירעה שגיאה בעת יצירת התאריכים: $1',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
