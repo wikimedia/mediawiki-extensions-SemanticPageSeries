@@ -156,7 +156,7 @@ $1',
 	'spserror-noiteratordata' => 'No se encontraron los parámetros del iterador en los datos enviados.',
 	'spserror-pagegenerationlimitexeeded' => 'Intentó generar {{PLURAL:$1|una página|$1 páginas}}. Esto supera el límite {{PLURAL:$2|de una página|de $2 páginas}}.',
 	'spserror-date-startdatemissing' => 'Falta la fecha de inicio.',
-	'spserror-date-internalerror' => 'Ocurrió un error al crear las fechas. Podría ser debido a un formato incorrecto en las fechas de inicio o fin.',
+	'spserror-date-internalerror' => 'Ocurrió un error al crear las fechas. Podría ser debido a un formato incorrecto en las fechas de inicio o fin.', # Fuzzy
 	'spserror-count-startvaluemalformed' => 'El valor de inicio no es un número.',
 	'spserror-count-endvaluemalformed' => 'El valor de fin no es un número.',
 	'spserror-count-stepvaluemalformed' => 'El valor de incremento no es un número.',
@@ -300,7 +300,7 @@ $messages['hsb'] = array(
 	'spserror-noiteratordata' => 'Žane iteratorowe parametry w pósłanych datach namakane.',
 	'spserror-pagegenerationlimitexeeded' => 'Sy spytał {{PLURAL:$1|jednu stronu|$1 stronje|$1 strony|$1 stronow}} płodźić. To překročuje dowoleny limit wot {{PLURAL:$2|jedneje strony|$2 stronow|$2 stronow|$1 stronow}}.',
 	'spserror-date-startdatemissing' => 'Startowy datum faluje.',
-	'spserror-date-internalerror' => 'Při wutworjenju datumow je zmylk wustupił. Přičina móhła njepłaćiwy startowy abo kónčny datum  być.',
+	'spserror-date-internalerror' => 'Při wutworjenju datumow je zmylk wustupił. Přičina móhła njepłaćiwy startowy abo kónčny datum  być.', # Fuzzy
 	'spserror-count-startvaluemalformed' => 'Startowa hódnota ličba njeje.',
 	'spserror-count-endvaluemalformed' => 'Kónčna hódnota ličba njeje.',
 	'spserror-count-stepvaluemalformed' => 'Kročelowa hódnota ličba njeje.',
@@ -329,7 +329,7 @@ $1',
 	'spserror-noiteratordata' => 'Nulle parametro de iterator trovate in le datos inviate.',
 	'spserror-pagegenerationlimitexeeded' => 'Tu tentava generar {{PLURAL:$1|un pagina|$1 paginas}}. Isto excede tu limite autorisate de {{PLURAL:$2|un pagina|$2 paginas}}.',
 	'spserror-date-startdatemissing' => 'Le data de initio es mancante.',
-	'spserror-date-internalerror' => 'Un error occurreva durante le creation del datas. Isto pote esser causate per un data de initio o de fin mal formate.',
+	'spserror-date-internalerror' => 'Un error occurreva durante le creation del datas. Isto pote esser causate per un data de initio o de fin mal formate.', # Fuzzy
 	'spserror-count-startvaluemalformed' => 'Le valor de initio non es un numero.',
 	'spserror-count-endvaluemalformed' => 'Le valor de fin non es un numero.',
 	'spserror-count-stepvaluemalformed' => 'Le valor de incremento non es un numero.',
@@ -358,7 +358,7 @@ $1',
 	'spserror-noiteratordata' => 'Nessun parametro di iterazione trovato nei dati inviati.',
 	'spserror-pagegenerationlimitexeeded' => 'Si è cercando di generare {{PLURAL:$1|una pagina|$1 pagine}}. Questo supera il limite consentito di {{PLURAL:$2|una pagina|$2 pagine}}.',
 	'spserror-date-startdatemissing' => 'Manca la data di inizio.',
-	'spserror-date-internalerror' => 'Si è verificato un errore durante la creazione delle date. Questo potrebbe essere causato da date di inizio o fine non valide.',
+	'spserror-date-internalerror' => 'Si è verificato un errore durante la creazione delle date. Questo potrebbe essere causato da date di inizio o fine non valide.', # Fuzzy
 	'spserror-count-startvaluemalformed' => 'Il valore iniziale non è un numero.',
 	'spserror-count-endvaluemalformed' => 'Il valore finale non è un numero.',
 	'spserror-count-stepvaluemalformed' => 'Il valore di incremento non è un numero.',
@@ -451,7 +451,7 @@ $1',
 	'spserror-count-digitsvaluemalformed' => 'Вредноста на цифрите не е број.',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Event
  */
 $messages['nb'] = array(
@@ -473,7 +473,7 @@ $1',
 	'spserror-noiteratordata' => 'Ingen iterator-parametre ble funnet i de sendte data.',
 	'spserror-pagegenerationlimitexeeded' => 'Du prøve å generere {{PLURAL:$1|en side|$1 sider}}. Dette overskrider din tillatte grense på {{PLURAL:$2|en side|$2 sider}}.',
 	'spserror-date-startdatemissing' => 'Startdatoen mangler.',
-	'spserror-date-internalerror' => 'Det oppstod en feil i forbindelse med opprettelse av datoene. Denne kan skyldes feilformatert start- eller sluttdato.',
+	'spserror-date-internalerror' => 'Det oppstod en feil i forbindelse med opprettelse av datoene. Denne kan skyldes feilformatert start- eller sluttdato.', # Fuzzy
 	'spserror-count-startvaluemalformed' => 'Startverdien er ikke et tall.',
 	'spserror-count-endvaluemalformed' => 'Sluttverdien er ikke et tall.',
 	'spserror-count-stepvaluemalformed' => 'Verdi-inkrementet er ikke et tall.',
@@ -534,7 +534,7 @@ $1",
 	'spserror-noiteratordata' => "Gnun paràmetr dl'iterator trovà ant ij dat spedì.",
 	'spserror-pagegenerationlimitexeeded' => "A l'ha provà a generé {{PLURAL:$1|na pàgina|$1 pàgine}}. Sòn a passa ij sò lìmit autorisà ëd {{PLURAL:$2|na pàgina|$2 pàgine}}.",
 	'spserror-date-startdatemissing' => "La data d'inissi a l'é mancanta.",
-	'spserror-date-internalerror' => "A l'é capitaje n'eror durant la creassion ëd le date. Sòn a podrìa esse dovù a na data inissial o final malformà.",
+	'spserror-date-internalerror' => "A l'é capitaje n'eror durant la creassion ëd le date. Sòn a podrìa esse dovù a na data inissial o final malformà.", # Fuzzy
 	'spserror-count-startvaluemalformed' => "La data inissial a l'é pa un nùmer.",
 	'spserror-count-endvaluemalformed' => "La data final a l'é pa un nùmer.",
 	'spserror-count-stepvaluemalformed' => "Ël valor dël pass a l'é pa un nùmer.",
@@ -596,7 +596,7 @@ $messages['sv'] = array(
 	'spserror-noiteratordata' => 'Ingen upprepnings-parameter hittades de data som skickats.',
 	'spserror-pagegenerationlimitexeeded' => 'Du försökte skapa {{PLURAL:$1|en sida|$1 sidor}} vilket är mer än den tillåtna gränsen på {{PLURAL:$2|en sida|$2 sidor}}.',
 	'spserror-date-startdatemissing' => 'Startdatum saknas.',
-	'spserror-date-internalerror' => 'Ett fel inträffade då vi försökte skapa datum. Felet kan bero på felaktigt start- eller slutdatum.',
+	'spserror-date-internalerror' => 'Ett fel inträffade då vi försökte skapa datum. Felet kan bero på felaktigt start- eller slutdatum.', # Fuzzy
 	'spserror-count-startvaluemalformed' => 'Startdatumet är inte ett tal.',
 	'spserror-count-endvaluemalformed' => 'Slutvärdet är inte ett tal.',
 	'spserror-count-stepvaluemalformed' => 'Intervall-värdet är inte ett tal.',
@@ -635,7 +635,7 @@ $messages['tl'] = array(
 	'spserror-noiteratordata' => 'Walang natagpuang mga parametro ng pang-ulit sa loob ng datong ipinadala.',
 	'spserror-pagegenerationlimitexeeded' => 'Sinubukan mong likhain ang {{PLURAL:$1|isang pahina|$1 mga pahina}}. Lumalabis na ito sa pinahihintulutan mong hangganan na {{PLURAL:$2|isang pahina|$2 mga pahina}}.',
 	'spserror-date-startdatemissing' => 'Nawawala ang petsa ng simula.',
-	'spserror-date-internalerror' => 'Isang kamalian ang naganap habang nililikha ang mga petsa. Maaaring dahil ito sa isang maling anyo ng petsa ng simula o pagtatapos.',
+	'spserror-date-internalerror' => 'Isang kamalian ang naganap habang nililikha ang mga petsa. Maaaring dahil ito sa isang maling anyo ng petsa ng simula o pagtatapos.', # Fuzzy
 	'spserror-count-startvaluemalformed' => 'Ang halaga ng simula ay hindi isang bilang.',
 	'spserror-count-endvaluemalformed' => 'Ang halaga ng pagtatapos ay hindi isang bilang.',
 	'spserror-count-stepvaluemalformed' => 'Ang halaga ng hakbang ay hindi isang bilang.',
@@ -683,7 +683,7 @@ $1',
 	'spserror-noiteratordata' => '在已发送的数据中找不到迭代器参数。',
 	'spserror-pagegenerationlimitexeeded' => '您已尝试生成{{PLURAL:$1|一个页面|$1个页面}}。这超过了您的允许极限：{{PLURAL:$2|一个页面|$2个页面}}。',
 	'spserror-date-startdatemissing' => '缺少开始日期。',
-	'spserror-date-internalerror' => '创建日期时出现了一个错误。这可能是因为格式错误的开始或结束日期。',
+	'spserror-date-internalerror' => '创建日期时出现了一个错误。这可能是因为格式错误的开始或结束日期。', # Fuzzy
 	'spserror-count-startvaluemalformed' => '起始值不是数字。',
 	'spserror-count-endvaluemalformed' => '结束值不是数字。',
 	'spserror-count-stepvaluemalformed' => '步长值不是数字。',
