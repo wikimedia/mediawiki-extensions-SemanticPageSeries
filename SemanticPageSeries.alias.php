@@ -27,7 +27,7 @@ $specialPageAliases['de'] = array(
 
 /** Zazaki (Zazaki) */
 $specialPageAliases['diq'] = array(
-	'SeriesEdit' => array( 'RatanVurnayış' ),
+	'SeriesEdit' => array( 'RatanVırnayış' ),
 );
 
 /** Swiss German (Alemannisch) */
