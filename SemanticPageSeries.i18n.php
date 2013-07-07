@@ -25,7 +25,7 @@ $messages['en'] = array(
 	'spserror-notargetfieldname' => 'No target field name given. You have to set the parameter "target field" in the #serieslink parser function call.',
 	'spserror-iteratorparammissing' => "The following iterator parameters are missing in the #serieslink call:\n$1",
 	'spserror-noiteratordata' => 'No iterator parameters found in the sent data.',
-	'spserror-pagegenerationlimitexeeded' => 'You tried to generate {{PLURAL:$1|one page|$1 pages}}. This exeeds your allowed limit of {{PLURAL:$2|one page|$2 pages}}.',
+	'spserror-pagegenerationlimitexeeded' => 'You tried to generate {{PLURAL:$1|one page|$1 pages}}. This exceeds your allowed limit of {{PLURAL:$2|one page|$2 pages}}.',
 
 	'spserror-date-startdatemissing' => 'The start date is missing.',
 	'spserror-date-internalerror' => 'An error occurred while creating the dates: $1',
