@@ -55,6 +55,11 @@ $specialPageAliases['nb'] = array(
 	'SeriesEdit' => array( 'Serieredigering' ),
 );
 
+/** Low Saxon (Netherlands) (Nedersaksies) */
+$specialPageAliases['nds-nl'] = array(
+	'SeriesEdit' => array( 'Series_bewarken' ),
+);
+
 /** Dutch (Nederlands) */
 $specialPageAliases['nl'] = array(
 	'SeriesEdit' => array( 'SeriesBewerken' ),
