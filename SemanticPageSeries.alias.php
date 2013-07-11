@@ -30,6 +30,11 @@ $specialPageAliases['diq'] = array(
 	'SeriesEdit' => array( 'RatanVırnayış' ),
 );
 
+/** Persian (فارسی) */
+$specialPageAliases['fa'] = array(
+	'SeriesEdit' => array( 'ویرایشگر_توالی‌ها' ),
+);
+
 /** Swiss German (Alemannisch) */
 $specialPageAliases['gsw'] = array(
 	'SeriesEdit' => array( 'Syteabfolg_bearbeite' ),
