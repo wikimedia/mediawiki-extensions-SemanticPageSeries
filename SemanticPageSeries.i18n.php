@@ -358,7 +358,7 @@ $1',
 	'spserror-noiteratordata' => 'Nessun parametro di iterazione trovato nei dati inviati.',
 	'spserror-pagegenerationlimitexeeded' => 'Si è cercando di generare {{PLURAL:$1|una pagina|$1 pagine}}. Questo supera il limite consentito di {{PLURAL:$2|una pagina|$2 pagine}}.',
 	'spserror-date-startdatemissing' => 'Manca la data di inizio.',
-	'spserror-date-internalerror' => 'Si è verificato un errore durante la creazione delle date. Questo potrebbe essere causato da date di inizio o fine non valide.', # Fuzzy
+	'spserror-date-internalerror' => 'Si è verificato un errore durante la creazione delle date: $1',
 	'spserror-count-startvaluemalformed' => 'Il valore iniziale non è un numero.',
 	'spserror-count-endvaluemalformed' => 'Il valore finale non è un numero.',
 	'spserror-count-stepvaluemalformed' => 'Il valore di incremento non è un numero.',
