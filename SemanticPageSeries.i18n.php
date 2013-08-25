@@ -43,22 +43,39 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'semanticpageseries-desc' => '{{desc|name=Semantic Page Series|url=http://www.mediawiki.org/wiki/Extension:Semantic_Page_Series}}',
-	'spssuccesstitle' => 'The title of a page containing a success message. The parameter will contain the category of pages to be created, e.g. Event',
-	'spssuccess' => 'A success message. The parameter will contain a number.',
-	'spssuccess-returntoorigin' => 'Provides navigation back to the origin page. The parameter is the link.',
+	'spssuccesstitle' => 'The title of a page containing a success message.
+
+Parameters:
+* $1 - will contain the category of pages to be created, e.g. Event',
+	'spssuccess' => 'A success message. Parameters:
+* $1 - number of pages',
+	'spssuccess-returntoorigin' => 'Provides navigation back to the origin page. Parameters:
+* $1 - the origin page title, with link',
 	'spserror' => 'The title of en error page',
 	'spserror-diffnotsupported' => 'An error message',
 	'spserror-previewnotsupported' => 'An error message',
 	'spserror-noiteratorname' => 'An error message. See the [[wikipedia:Iterator | wikipedia page]] for the meaning of iterator. The name of the parameter in quotes should not be translated!',
-	'spserror-iteratorunknown' => 'An error message. See the [[wikipedia:Iterator | wikipedia page]] for the meaning of iterator. The name of the parameter in quotes should not be translated!',
+	'spserror-iteratorunknown' => '{{doc-important|The name of the parameter "<code>iterator</code>" in quotes should not be translated!}}
+Used as fatal error message.
+
+See the [[wikipedia:Iterator | wikipedia page]] for the meaning of iterator.
+
+Parameters:
+* $1 - iterator name',
 	'spserror-noformname' => 'An error message. The name of the parameter in quotes should not be translated!',
-	'spserror-formunknown' => 'An error message',
+	'spserror-formunknown' => 'Used as fatal error message. Parameters:
+* $1 - form name',
 	'spserror-notargetformname' => 'An error message. The name of the parameter in quotes should not be translated!',
 	'spserror-notargetfieldname' => 'An error message. The name of the parameter in quotes should not be translated!',
 	'spserror-iteratorparammissing' => '{{doc-important|Do not translate "<code>#serieslink</code>".}}
-An error message. See the [[wikipedia:Iterator | wikipedia page]] for the meaning of iterator.',
+An error message. See the [[wikipedia:Iterator | wikipedia page]] for the meaning of iterator.
+
+Parameters:
+* $1 - list of error messages (unordered list)',
 	'spserror-noiteratordata' => 'An error message. See the [[wikipedia:Iterator | wikipedia page]] for the meaning of iterator.',
-	'spserror-pagegenerationlimitexeeded' => 'An error message',
+	'spserror-pagegenerationlimitexeeded' => 'Used as error message. Parameters:
+* $1 - number of pages (number of iterator values)
+* $2 - limit number of pages',
 	'spserror-date-startdatemissing' => 'An error message',
 	'spserror-date-internalerror' => 'An error message. "the dates" doesn\'t contain times. Parameters:
 * $1 - "Unknown error. This could be due to a malformed start or end date." (in English), or a list of errors',
