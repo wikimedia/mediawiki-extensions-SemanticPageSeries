@@ -417,6 +417,7 @@ $messages['ka'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'spssuccesstitle' => '$1 Säite ginn ugeluecht',
@@ -426,7 +427,7 @@ $messages['lb'] = array(
 	'spserror-diffnotsupported' => "D'Aktioun 'Diff' gëtt fir  Serie vu Säiten net ënnerstëtzt.",
 	'spserror-previewnotsupported' => "'Kucken ouni ze späicheren' gëtt fir Serie vu Säiten net ënnerstëtzt.",
 	'spserror-formunknown' => 'De Formulaire "$1" gëtt et net.',
-	'spserror-pagegenerationlimitexeeded' => 'Dir hutt probéiert {{PLURAL:$1|eng Säit|$1 Säiten}} ze generéieren. Dat geet iwwert Är Limit vun  {{PLURAL:$2|eng Säit|$1 Säiten}}.',
+	'spserror-pagegenerationlimitexeeded' => 'Dir hutt probéiert {{PLURAL:$1|eng Säit|$1 Säiten}} ze generéieren. Dat geet iwwer Är Limit vun  {{PLURAL:$2|eng Säit|$1 Säiten}}.',
 	'spserror-date-startdatemissing' => 'Den Ufanksdatum feelt.',
 	'spserror-count-startvaluemalformed' => 'Den Ufankswäert ass keng Zuel.',
 	'spserror-count-endvaluemalformed' => 'De Schlusswäert ass keng Zuel.',
