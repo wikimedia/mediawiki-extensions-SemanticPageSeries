@@ -624,6 +624,7 @@ $messages['si'] = array(
 
 /** Swedish (svenska)
  * @author Martinwiss
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'semanticpageseries-desc' => 'Skapa flera sidor med hjälp av ett formulär som använder [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Form]',
@@ -643,7 +644,7 @@ $messages['sv'] = array(
 	'spserror-noiteratordata' => 'Ingen upprepnings-parameter hittades de data som skickats.',
 	'spserror-pagegenerationlimitexeeded' => 'Du försökte skapa {{PLURAL:$1|en sida|$1 sidor}} vilket är mer än den tillåtna gränsen på {{PLURAL:$2|en sida|$2 sidor}}.',
 	'spserror-date-startdatemissing' => 'Startdatum saknas.',
-	'spserror-date-internalerror' => 'Ett fel inträffade då vi försökte skapa datum. Felet kan bero på felaktigt start- eller slutdatum.', # Fuzzy
+	'spserror-date-internalerror' => 'Ett fel inträffade då vi försökte skapa datumen: $1',
 	'spserror-count-startvaluemalformed' => 'Startdatumet är inte ett tal.',
 	'spserror-count-endvaluemalformed' => 'Slutvärdet är inte ett tal.',
 	'spserror-count-stepvaluemalformed' => 'Intervall-värdet är inte ett tal.',
