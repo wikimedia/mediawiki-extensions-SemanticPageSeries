@@ -607,6 +607,24 @@ $messages['roa-tara'] = array(
 	'spserror-count-digitsvaluemalformed' => "'U valore digitale non g'è 'nu numere.",
 );
 
+/** Russian (русский)
+ * @author Okras
+ */
+$messages['ru'] = array(
+	'semanticpageseries-desc' => 'Создание серии страниц из одной [https://www.mediawiki.org/wiki/Extension:Semantic_Forms семантической формы]',
+	'spssuccesstitle' => 'Создание $1 страниц',
+	'spssuccess' => '{{PLURAL:$1|Будет создана одна страница|Будут созданы $1 страницы|Будет создано $1 страниц}}.',
+	'spssuccess-returntoorigin' => 'Вернуться к $1',
+	'spserror' => 'Произошла ошибка',
+	'spserror-previewnotsupported' => 'Предварительный просмотр не поддерживается для серии страниц.',
+	'spserror-formunknown' => 'Форма «$1» не существует.',
+	'spserror-date-startdatemissing' => 'Начальная дата отсутствует.',
+	'spserror-date-internalerror' => 'Произошла ошибка при создании дат: $1',
+	'spserror-count-startvaluemalformed' => 'Начальное значение не является числом.',
+	'spserror-count-endvaluemalformed' => 'Конечное значение не является числом.',
+	'spserror-count-stepvaluemalformed' => 'Шаг значения не является числом.',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
