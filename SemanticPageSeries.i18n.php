@@ -346,7 +346,7 @@ $1',
 	'spserror-noiteratordata' => 'Nulle parametro de iterator trovate in le datos inviate.',
 	'spserror-pagegenerationlimitexeeded' => 'Tu tentava generar {{PLURAL:$1|un pagina|$1 paginas}}. Isto excede tu limite autorisate de {{PLURAL:$2|un pagina|$2 paginas}}.',
 	'spserror-date-startdatemissing' => 'Le data de initio es mancante.',
-	'spserror-date-internalerror' => 'Un error occurreva durante le creation del datas. Isto pote esser causate per un data de initio o de fin mal formate.', # Fuzzy
+	'spserror-date-internalerror' => 'Un error occurreva durante le creation del datas: $1',
 	'spserror-count-startvaluemalformed' => 'Le valor de initio non es un numero.',
 	'spserror-count-endvaluemalformed' => 'Le valor de fin non es un numero.',
 	'spserror-count-stepvaluemalformed' => 'Le valor de incremento non es un numero.',
