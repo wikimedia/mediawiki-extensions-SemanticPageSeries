@@ -616,6 +616,7 @@ $messages['ru'] = array(
 	'spssuccess' => '{{PLURAL:$1|Будет создана одна страница|Будут созданы $1 страницы|Будет создано $1 страниц}}.',
 	'spssuccess-returntoorigin' => 'Вернуться к $1',
 	'spserror' => 'Произошла ошибка',
+	'spserror-diffnotsupported' => 'Сравнение версий не поддерживается для серии страниц.',
 	'spserror-previewnotsupported' => 'Предварительный просмотр не поддерживается для серии страниц.',
 	'spserror-formunknown' => 'Форма «$1» не существует.',
 	'spserror-date-startdatemissing' => 'Начальная дата отсутствует.',
