@@ -618,12 +618,22 @@ $messages['ru'] = array(
 	'spserror' => 'Произошла ошибка',
 	'spserror-diffnotsupported' => 'Сравнение версий не поддерживается для серии страниц.',
 	'spserror-previewnotsupported' => 'Предварительный просмотр не поддерживается для серии страниц.',
+	'spserror-noiteratorname' => 'Итератор не указан. Вы должны установить значение параметра «iterator» в вызове функции анализатора #serieslink.',
+	'spserror-iteratorunknown' => 'Итератор «$1» не существует. Вы должны исправить параметр «iterator» в вызове функции анализатора #serieslink.',
+	'spserror-noformname' => 'Не задано имя формы. Вам нужно установить параметр «form» при вызове функции анализатора #serieslink.',
 	'spserror-formunknown' => 'Форма «$1» не существует.',
+	'spserror-notargetformname' => 'Не задано имя целевой формы. Вам нужно установить параметр «target form» при вызове функции анализатора #serieslink.',
+	'spserror-notargetfieldname' => 'Не задано имя целевого поля. Вам нужно установить параметр «target field» при вызове функции анализатора #serieslink.',
+	'spserror-iteratorparammissing' => 'Следующие параметры итератор отсутствуют при вызове #serieslink:
+$1',
+	'spserror-noiteratordata' => 'Параметры итератора не найдены в отправленных данных.',
+	'spserror-pagegenerationlimitexeeded' => 'Вы пытались создать {{PLURAL:$1|одну страницу|$1 страницы|$1 страниц}}. Это превышает допустимый предел в {{PLURAL:$2|одну страницу|$2 страницы|$2 страниц}}.',
 	'spserror-date-startdatemissing' => 'Начальная дата отсутствует.',
 	'spserror-date-internalerror' => 'Произошла ошибка при создании дат: $1',
 	'spserror-count-startvaluemalformed' => 'Начальное значение не является числом.',
 	'spserror-count-endvaluemalformed' => 'Конечное значение не является числом.',
 	'spserror-count-stepvaluemalformed' => 'Шаг значения не является числом.',
+	'spserror-count-digitsvaluemalformed' => 'Цифровое значение не является числом.',
 );
 
 /** Sinhala (සිංහල)
