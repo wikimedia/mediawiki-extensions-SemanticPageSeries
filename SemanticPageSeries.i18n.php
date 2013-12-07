@@ -103,7 +103,7 @@ $messages['br'] = array(
 	'spserror-formunknown' => 'N\'eus ket eus ar stumm "$1".',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Vks
  */
 $messages['cs'] = array(
