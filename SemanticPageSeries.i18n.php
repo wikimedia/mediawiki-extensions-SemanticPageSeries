@@ -760,6 +760,7 @@ $messages['ur'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Linforest
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'semanticpageseries-desc' => '利用一个[https://www.mediawiki.org/wiki/Extension:Semantic_Forms 语义表单]创建一系列的页面',
@@ -780,7 +781,7 @@ $1',
 	'spserror-noiteratordata' => '在已发送的数据中找不到迭代器参数。',
 	'spserror-pagegenerationlimitexeeded' => '您已尝试生成{{PLURAL:$1|一个页面|$1个页面}}。这超过了您的允许极限：{{PLURAL:$2|一个页面|$2个页面}}。',
 	'spserror-date-startdatemissing' => '缺少开始日期。',
-	'spserror-date-internalerror' => '创建日期时出现了一个错误。这可能是因为格式错误的开始或结束日期。', # Fuzzy
+	'spserror-date-internalerror' => '创建日期时发生错误：$1',
 	'spserror-count-startvaluemalformed' => '起始值不是数字。',
 	'spserror-count-endvaluemalformed' => '结束值不是数字。',
 	'spserror-count-stepvaluemalformed' => '步长值不是数字。',
