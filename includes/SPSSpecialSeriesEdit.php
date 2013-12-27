@@ -237,11 +237,11 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 			$request->setSessionData( 'spsResult', $iteratorValuesCount );
 			$request->setSessionData( 'spsForm', $targetFormPageId );
 			$request->setSessionData( 'spsOrigin', $originPageId );
-			header( 'Location: ' . $this->getTitle()->getFullURL() );
+			header( 'Location: ' . $this->getPageTitle()->getFullURL() );
 		} else {
 
 			// cookies disabled, write result data to URL
-			header( 'Location: ' . $this->getTitle()->getFullURL() . "?$targetFormPageId;$iteratorValuesCount;$originPageId" );
+			header( 'Location: ' . $this->getPageTitle()->getFullURL() . "?$targetFormPageId;$iteratorValuesCount;$originPageId" );
 		}
 
 		return null;
