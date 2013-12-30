@@ -191,6 +191,13 @@ $messages['et'] = array(
 	'spserror-count-endvaluemalformed' => 'Lõppväärtus ei ole number.',
 );
 
+/** Persian (فارسی)
+ * @author Reza1615
+ */
+$messages['fa'] = array(
+	'spserror' => 'يک خطا اتفاق افتاد',
+);
+
 /** Finnish (suomi)
  * @author Nedergard
  * @author Nike
