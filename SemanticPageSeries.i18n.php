@@ -620,7 +620,7 @@ $messages['roa-tara'] = array(
 $messages['ru'] = array(
 	'semanticpageseries-desc' => 'Создание серии страниц из одной [https://www.mediawiki.org/wiki/Extension:Semantic_Forms семантической формы]',
 	'spssuccesstitle' => 'Создание $1 страниц',
-	'spssuccess' => '{{PLURAL:$1|Будет создана одна страница|Будут созданы $1 страницы|Будет создано $1 страниц}}.',
+	'spssuccess' => '{{PLURAL:$1|Будет создана одна страница|Будет создано $1 страниц|Будут созданы $1 страницы}}.', # Fuzzy
 	'spssuccess-returntoorigin' => 'Вернуться к $1',
 	'spserror' => 'Произошла ошибка',
 	'spserror-diffnotsupported' => 'Сравнение версий не поддерживается для серии страниц.',
@@ -634,7 +634,7 @@ $messages['ru'] = array(
 	'spserror-iteratorparammissing' => 'Следующие параметры итератор отсутствуют при вызове #serieslink:
 $1',
 	'spserror-noiteratordata' => 'Параметры итератора не найдены в отправленных данных.',
-	'spserror-pagegenerationlimitexeeded' => 'Вы пытались создать {{PLURAL:$1|одну страницу|$1 страницы|$1 страниц}}. Это превышает допустимый предел в {{PLURAL:$2|одну страницу|$2 страницы|$2 страниц}}.',
+	'spserror-pagegenerationlimitexeeded' => 'Вы пытались создать {{PLURAL:$1|одну страницу|$1 страниц|$1 страницы}}. Это превышает допустимый предел в {{PLURAL:$2|одну страницу|$2 страниц|$2 страницы}}.', # Fuzzy
 	'spserror-date-startdatemissing' => 'Начальная дата отсутствует.',
 	'spserror-date-internalerror' => 'Произошла ошибка при создании дат: $1',
 	'spserror-count-startvaluemalformed' => 'Начальное значение не является числом.',
@@ -734,7 +734,7 @@ $messages['tl'] = array(
  */
 $messages['uk'] = array(
 	'semanticpageseries-desc' => 'Створення серій сторінок із одної [https://www.mediawiki.org/wiki/Extension:Semantic_Forms семантичної форми]',
-	'spssuccesstitle' => 'Створення $1 {{PLURAL:$1|сторінки|сторінок}}',
+	'spssuccesstitle' => 'Створення $1 {{PLURAL:$1|1=сторінки|сторінок}}',
 	'spssuccess' => '{{PLURAL:$1|Одна сторінка|$1 сторінки|$1 сторінок}} буде створено.',
 	'spssuccess-returntoorigin' => 'Повернутись до $1',
 	'spserror' => 'Сталася помилка',
@@ -749,7 +749,7 @@ $messages['uk'] = array(
 	'spserror-iteratorparammissing' => 'Параметри наступного ітератора пропущені у виклику #serieslink:
 $1',
 	'spserror-noiteratordata' => 'Не знайдено параметрів ітератора у надісланих даних.',
-	'spserror-pagegenerationlimitexeeded' => 'Ви спробували генерувати  {{PLURAL:$1|одну сторінку|$1  сторінки|$1 сторінок}}. Це перевищує ваше дозволене обмеження з {{PLURAL:$2|одної сторінки|$2  сторінок}}.',
+	'spserror-pagegenerationlimitexeeded' => 'Ви спробували генерувати  {{PLURAL:$1|одну сторінку|$1  сторінки|$1 сторінок}}. Це перевищує ваше дозволене обмеження з {{PLURAL:$2|1=одної сторінки|$2  сторінок}}.',
 	'spserror-date-startdatemissing' => 'Початкова дата відсутня.',
 	'spserror-date-internalerror' => 'Помилка під час створення дати: $1',
 	'spserror-count-startvaluemalformed' => 'Початкове значення не є числом.',
