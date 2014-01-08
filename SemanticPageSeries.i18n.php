@@ -615,12 +615,13 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (русский)
+ * @author Kaganer
  * @author Okras
  */
 $messages['ru'] = array(
 	'semanticpageseries-desc' => 'Создание серии страниц из одной [https://www.mediawiki.org/wiki/Extension:Semantic_Forms семантической формы]',
 	'spssuccesstitle' => 'Создание $1 страниц',
-	'spssuccess' => '{{PLURAL:$1|Будет создана одна страница|Будет создано $1 страниц|Будут созданы $1 страницы}}.', # Fuzzy
+	'spssuccess' => '{{PLURAL:$1|Будет создана $1 страница|Будет создано $1 страниц|Будут созданы $1 страницы|1=Будет создана страница}}.',
 	'spssuccess-returntoorigin' => 'Вернуться к $1',
 	'spserror' => 'Произошла ошибка',
 	'spserror-diffnotsupported' => 'Сравнение версий не поддерживается для серии страниц.',
@@ -634,7 +635,7 @@ $messages['ru'] = array(
 	'spserror-iteratorparammissing' => 'Следующие параметры итератор отсутствуют при вызове #serieslink:
 $1',
 	'spserror-noiteratordata' => 'Параметры итератора не найдены в отправленных данных.',
-	'spserror-pagegenerationlimitexeeded' => 'Вы пытались создать {{PLURAL:$1|одну страницу|$1 страниц|$1 страницы}}. Это превышает допустимый предел в {{PLURAL:$2|одну страницу|$2 страниц|$2 страницы}}.', # Fuzzy
+	'spserror-pagegenerationlimitexeeded' => 'Вы пытались создать {{PLURAL:$1|$1 страницу|$1 страниц|$1 страницы|1=страницу}}. Это превышает допустимый предел в {{PLURAL:$2|$2 страницу|$2 страниц|$2 страницы|1=одну страницу}}.',
 	'spserror-date-startdatemissing' => 'Начальная дата отсутствует.',
 	'spserror-date-internalerror' => 'Произошла ошибка при создании дат: $1',
 	'spserror-count-startvaluemalformed' => 'Начальное значение не является числом.',
