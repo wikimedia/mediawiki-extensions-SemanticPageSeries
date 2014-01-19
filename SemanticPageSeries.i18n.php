@@ -422,6 +422,25 @@ $messages['ka'] = array(
 	'spserror-count-digitsvaluemalformed' => 'ციფრული მნიშვნელობა არ არის რიცხვი.',
 );
 
+/** Korean (한국어)
+ * @author Priviet
+ */
+$messages['ko'] = array(
+	'spssuccesstitle' => '$1 문서 만들기',
+	'spssuccess' => '{{PLURAL:$1|하나의 문서|$1개의 문서}}가 만들어졌습니다.',
+	'spssuccess-returntoorigin' => '$1로 돌아가기',
+	'spserror' => '오류 발생했습니다',
+	'spserror-diffnotsupported' => '차이 보기 명령은 문서 시리즈를 지원하지 않습니다.',
+	'spserror-previewnotsupported' => '미리보기 명령은 문서 시리즈를 지원하지 않습니다.',
+	'spserror-formunknown' => '"$1" 양식이 존재하지 않습니다.',
+	'spserror-date-startdatemissing' => '시작 날짜가 없습니다.',
+	'spserror-date-internalerror' => '날짜를 만들 때 오류가 발생했습니다: $1',
+	'spserror-count-startvaluemalformed' => '시작 값이 숫자가 아닙니다.',
+	'spserror-count-endvaluemalformed' => '마지막 값이 숫자가 아닙니다.',
+	'spserror-count-stepvaluemalformed' => '단계 값이 숫자가 아닙니다.',
+	'spserror-count-digitsvaluemalformed' => '자릿값이 숫자가 아닙니다.',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  * @author Soued031
