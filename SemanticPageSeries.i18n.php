@@ -426,16 +426,22 @@ $messages['ka'] = array(
  * @author Priviet
  */
 $messages['ko'] = array(
+	'semanticpageseries-desc' => '하나의 [https://www.mediawiki.org/wiki/Extension:Semantic_Forms 시맨틱 양식]에서 일련의 문서를 만들기',
 	'spssuccesstitle' => '$1 문서 만들기',
 	'spssuccess' => '{{PLURAL:$1|하나의 문서|$1개의 문서}}가 만들어졌습니다.',
 	'spssuccess-returntoorigin' => '$1로 돌아가기',
 	'spserror' => '오류 발생했습니다',
 	'spserror-diffnotsupported' => '차이 보기 명령은 문서 시리즈를 지원하지 않습니다.',
 	'spserror-previewnotsupported' => '미리보기 명령은 문서 시리즈를 지원하지 않습니다.',
+	'spserror-noiteratorname' => '반복자가 지정되지 않았습니다. #serieslink 구문 분석 함수 호출로 "반복자" 매개변수를 설정할 수 없습니다.',
+	'spserror-iteratorunknown' => '"$1" 반복자가 존재하지 않습니다. #3serieslink 구문 분석 함수 호출 "반복자" 매개변수 호출에서 "반복자" 매개변수를 수정해야 합니다.',
 	'spserror-noformname' => '양식 이름이 입력되지 않았습니다. #serieslink 구문 분석 함수에서 매개변수 "form"을 설정해야 합니다.',
 	'spserror-formunknown' => '"$1" 양식이 존재하지 않습니다.',
 	'spserror-notargetformname' => '대상 양식 이름이 입력되지 않았습니다. #serieslink 구문 분석 함수 호출에서 매개변수 "target form"을 설정해야 합니다.',
 	'spserror-notargetfieldname' => '대상 필드 이름이 입력되지 않았습니다. #serieslink 구문 분석 함수 호출에서 매개변수 "target field"를 설정해야 합니다.',
+	'spserror-iteratorparammissing' => '#serieslink 호출에 다음 반복자 매개변수가 없습니다: $1',
+	'spserror-noiteratordata' => '전송한 데이터에서 반복자 매개변수를 찾을 수 없습니다.',
+	'spserror-pagegenerationlimitexeeded' => '{{PLURAL:$1|하나의 문서|$1개의 문서}}를 생성려고 했습니다. 당신에게 허용된 {{PLURAL:$2|하나의 문서|$2개의 문서}} 제한을 초과합니다.',
 	'spserror-date-startdatemissing' => '시작 날짜가 없습니다.',
 	'spserror-date-internalerror' => '날짜를 만들 때 오류가 발생했습니다: $1',
 	'spserror-count-startvaluemalformed' => '시작 값이 숫자가 아닙니다.',
