@@ -192,10 +192,23 @@ $messages['et'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Reza1615
  */
 $messages['fa'] = array(
+	'spssuccesstitle' => 'ایجاد $1 صفحات',
+	'spssuccess' => '{{PLURAL:$1|یک صفحه|$1 صفحات}} ایجاد خواهد شد.',
+	'spssuccess-returntoorigin' => 'بازگشت به $1',
 	'spserror' => 'يک خطا اتفاق افتاد',
+	'spserror-diffnotsupported' => 'عمل متفاوت برای مجموعه صفحات، پشتیبانی نشده‌است.',
+	'spserror-previewnotsupported' => 'عمل پیش‌نمایش برای مجموعهٔ صفحات پشتیبانی نشده‌است.',
+	'spserror-formunknown' => 'فرم "$1" وجود ندارد.',
+	'spserror-date-startdatemissing' => 'تاریخ شروع گم شده‌است.',
+	'spserror-date-internalerror' => 'خطایی هنگام ایجاد تاریخ‌ها رخ داده‌است: $1',
+	'spserror-count-startvaluemalformed' => 'مقدار شروع یک عدد نیست.',
+	'spserror-count-endvaluemalformed' => 'مفدار پایان یک عدد نیست.',
+	'spserror-count-stepvaluemalformed' => 'مقدار گام یک عدد نیست.',
+	'spserror-count-digitsvaluemalformed' => 'مقدار ارقام یک عدد نیست.',
 );
 
 /** Finnish (suomi)
@@ -526,7 +539,7 @@ $1',
 	'spserror-noiteratordata' => 'Ingen iterator-parametre ble funnet i de sendte data.',
 	'spserror-pagegenerationlimitexeeded' => 'Du prøve å generere {{PLURAL:$1|en side|$1 sider}}. Dette overskrider din tillatte grense på {{PLURAL:$2|en side|$2 sider}}.',
 	'spserror-date-startdatemissing' => 'Startdatoen mangler.',
-	'spserror-date-internalerror' => 'Det oppstod en feil i forbindelse med opprettelse av datoene. Denne kan skyldes feilformatert start- eller sluttdato.', # Fuzzy
+	'spserror-date-internalerror' => 'Det oppstod en feil ved opprettelse av datoene: $1',
 	'spserror-count-startvaluemalformed' => 'Startverdien er ikke et tall.',
 	'spserror-count-endvaluemalformed' => 'Sluttverdien er ikke et tall.',
 	'spserror-count-stepvaluemalformed' => 'Verdi-inkrementet er ikke et tall.',
