@@ -2,7 +2,7 @@
 
 /**
  * File holding the SPSPageCreationJob class
- * 
+ *
  * @author Stephan Gambke
  * @file
  * @ingroup SemanticPageSeries
@@ -27,16 +27,17 @@ class SPSPageCreationJob extends Job {
 	 * @return boolean success
 	 */
 	function run() {
-		
+
 		global $wgUser, $wgCommandLineMode;
-		
+
 		$oldUser = $wgUser;
 		$wgUser = User::newFromId( $this->params['user'] );
 
 		unset( $this->params['user'] );
-		
+
 		$this->params['form'] = $this->title->getText();
-		
+		$this->params['target'] = '';
+
 		$handler = new SFAutoeditAPI( new ApiMain(), 'sfautoedit' );
 
 		// TODO: Method is removed in SF 2.5 onwards. Remove the whole if-clause
@@ -44,7 +45,7 @@ class SPSPageCreationJob extends Job {
 		if ( method_exists( $handler, 'isApiQuery' ) ) {
 			$handler->isApiQuery( false );
 		}
-		
+
 		$handler->setOptions( $this->params );
 
 		// TODO: Method storeSemanticData is removed in SF 2.5 onwards. Clean this up
@@ -74,7 +75,7 @@ class SPSPageCreationJob extends Job {
 		wfDebugLog( 'sps', 'Page Creation Job: ' . $result );
 
 		$wgUser = $oldUser;
-		
+
 	}
 
 }
