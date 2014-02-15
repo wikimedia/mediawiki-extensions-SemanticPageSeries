@@ -606,6 +606,13 @@ $1",
 	'spserror-count-digitsvaluemalformed' => 'La valor de las chifras es pas un nombre.',
 );
 
+/** Polish (polski)
+ * @author Chrumps
+ */
+$messages['pl'] = array(
+	'spserror' => 'Wystąpił błąd',
+);
+
 /** Piedmontese (Piemontèis)
  * @author Borichèt
  * @author Dragonòt
