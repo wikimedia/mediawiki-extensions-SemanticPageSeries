@@ -18,7 +18,12 @@ $specialPageAliases['en'] = array(
 
 /** Arabic (العربية) */
 $specialPageAliases['ar'] = array(
-	'SeriesEdit' => array( 'تعديل_جدي' ),
+	'SeriesEdit' => array( 'تعديل_متسلسل' ),
+);
+
+/** Egyptian Spoken Arabic (مصرى) */
+$specialPageAliases['arz'] = array(
+	'SeriesEdit' => array( 'تعديل_متسلسل' ),
 );
 
 /** German (Deutsch) */
