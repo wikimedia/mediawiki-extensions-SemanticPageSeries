@@ -448,13 +448,14 @@ $messages['ka'] = array(
 
 /** Korean (한국어)
  * @author Priviet
+ * @author 아라
  */
 $messages['ko'] = array(
 	'semanticpageseries-desc' => '하나의 [https://www.mediawiki.org/wiki/Extension:Semantic_Forms 시맨틱 양식]에서 일련의 문서를 만들기',
 	'spssuccesstitle' => '$1 문서 만들기',
 	'spssuccess' => '{{PLURAL:$1|하나의 문서|$1개의 문서}}가 만들어졌습니다.',
 	'spssuccess-returntoorigin' => '$1로 돌아가기',
-	'spserror' => '오류 발생했습니다',
+	'spserror' => '오류가 발생했습니다',
 	'spserror-diffnotsupported' => '차이 보기 명령은 문서 시리즈를 지원하지 않습니다.',
 	'spserror-previewnotsupported' => '미리보기 명령은 문서 시리즈를 지원하지 않습니다.',
 	'spserror-noiteratorname' => '반복자가 지정되지 않았습니다. #serieslink 구문 분석 함수 호출로 "반복자" 매개변수를 설정할 수 없습니다.',
