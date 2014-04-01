@@ -5,7 +5,6 @@
  *
  * @defgroup SemanticPageSeries Semantic Page Series
  * @author Stephan Gambke
- * @version 0.2 alpha
  */
 /**
  * The main file of the SemanticPageSeries extension
@@ -30,7 +29,7 @@ if ( !defined( 'SF_VERSION' ) ) {
 /**
  * The Semantic Page Series version
  */
-define( 'SPS_VERSION', '0.2 alpha' );
+define( 'SPS_VERSION', '0.3.0 alpha' );
 
 // register the extension
 $wgExtensionCredits['semantic'][] = array(
@@ -47,6 +46,7 @@ $wgExtensionCredits['semantic'][] = array(
 $dir = dirname( __FILE__ );
 
 // register message files
+$wgMessagesDirs['SemanticPageSeries'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['SemanticPageSeries'] = $dir . '/SemanticPageSeries.i18n.php';
 $wgExtensionMessagesFiles['SemanticPageSeriesMagic'] = $dir . '/SemanticPageSeries.magic.php';
 $wgExtensionMessagesFiles['SemanticPageSeriesAlias'] = $dir . '/SemanticPageSeries.alias.php';
@@ -84,7 +84,7 @@ $spsgIterators = array (
 $spsgPageGenerationLimits = array(
 	'*' => 0,
 	'user' => 10,
-	'sysop' => SPS_NOLIMIT	
+	'sysop' => SPS_NOLIMIT
 );
 
 
