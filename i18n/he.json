@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "ExampleTomer"
-        ]
-    },
-    "spserror-date-internalerror": "אירעה שגיאה בעת יצירת התאריכים: $1"
+	"@metadata": {
+		"authors": [
+			"ExampleTomer"
+		]
+	},
+	"spserror-date-internalerror": "אירעה שגיאה בעת יצירת התאריכים: $1"
 }
