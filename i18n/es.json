@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Armando-Martin"
+			"Armando-Martin",
+			"Macofe"
 		]
 	},
 	"semanticpageseries-desc": "Crear una serie de páginas a partir de un [https://www.mediawiki.org/wiki/Extension:Semantic_Forms formulario semántico]",
@@ -21,7 +22,7 @@
 	"spserror-noiteratordata": "No se encontraron los parámetros del iterador en los datos enviados.",
 	"spserror-pagegenerationlimitexeeded": "Intentó generar {{PLURAL:$1|una página|$1 páginas}}. Esto supera el límite {{PLURAL:$2|de una página|de $2 páginas}}.",
 	"spserror-date-startdatemissing": "Falta la fecha de inicio.",
-	"spserror-date-internalerror": "Ocurrió un error al crear las fechas. Podría ser debido a un formato incorrecto en las fechas de inicio o fin.",
+	"spserror-date-internalerror": "Ocurrió un error al crear las fechas: $1",
 	"spserror-count-startvaluemalformed": "El valor de inicio no es un número.",
 	"spserror-count-endvaluemalformed": "El valor de fin no es un número.",
 	"spserror-count-stepvaluemalformed": "El valor de incremento no es un número.",
