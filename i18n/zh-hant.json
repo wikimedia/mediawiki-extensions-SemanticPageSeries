@@ -5,9 +5,9 @@
 			"LNDDYL"
 		]
 	},
-	"semanticpageseries-desc": "利用一個[https://www.mediawiki.org/wiki/Extension:Semantic_Forms 語義表單]創建一系列的頁面",
+	"semanticpageseries-desc": "利用一個[https://www.mediawiki.org/wiki/Extension:Semantic_Forms 語義表單]建立一系列的頁面",
 	"spssuccesstitle": "創建$1頁面",
-	"spssuccess": "將會創建{{PLURAL:$1|一個頁面|$1個頁面}}。",
+	"spssuccess": "將會建立{{PLURAL:$1|一個頁面|$1個頁面}}。",
 	"spssuccess-returntoorigin": "返回到$1",
 	"spserror": "出現了一個錯誤",
 	"spserror-diffnotsupported": "頁面系列不支持diff差別比較操作。",
