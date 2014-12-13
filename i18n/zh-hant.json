@@ -22,7 +22,7 @@
 	"spserror-noiteratordata": "在已發送的數據中找不到迭代器參數。",
 	"spserror-pagegenerationlimitexeeded": "您已嘗試生成{{PLURAL:$1|一個頁面|$1個頁面}}。這超過了您的允許極限：{{PLURAL:$2|一個頁面|$2個頁面}}。",
 	"spserror-date-startdatemissing": "缺少開始日期。",
-	"spserror-date-internalerror": "創建日期時出現錯誤：$1",
+	"spserror-date-internalerror": "建立日期時出現錯誤：$1",
 	"spserror-count-startvaluemalformed": "起始值不是數字。",
 	"spserror-count-endvaluemalformed": "結束值不是數字。",
 	"spserror-count-stepvaluemalformed": "步長值不是數字。",
