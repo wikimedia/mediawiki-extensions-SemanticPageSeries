@@ -3,10 +3,11 @@
 		"authors": [
 			"F.trott",
 			"Raymond",
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
-	"semanticpageseries-desc": "{{desc|name=Semantic Page Series|url=http://www.mediawiki.org/wiki/Extension:Semantic_Page_Series}}",
+	"semanticpageseries-desc": "{{desc|name=Semantic Page Series|url=https://www.mediawiki.org/wiki/Extension:Semantic_Page_Series}}",
 	"spssuccesstitle": "The title of a page containing a success message.\n\nParameters:\n* $1 - will contain the category of pages to be created, e.g. Event",
 	"spssuccess": "A success message. Parameters:\n* $1 - number of pages",
 	"spssuccess-returntoorigin": "Provides navigation back to the origin page. Parameters:\n* $1 - the origin page title, with link",
