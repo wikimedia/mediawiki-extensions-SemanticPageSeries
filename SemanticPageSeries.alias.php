@@ -26,6 +26,11 @@ $specialPageAliases['arz'] = array(
 	'SeriesEdit' => array( 'تعديل_متسلسل' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'SeriesEdit' => array( 'توالی_ئانی_دستکاری' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'SeriesEdit' => array( 'Seitenabfolge_bearbeiten' ),
