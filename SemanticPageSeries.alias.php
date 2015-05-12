@@ -21,7 +21,7 @@ $specialPageAliases['ar'] = array(
 	'SeriesEdit' => array( 'تعديل_متسلسل' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'SeriesEdit' => array( 'تعديل_متسلسل' ),
 );
