@@ -23,8 +23,8 @@
 	"spserror-pagegenerationlimitexeeded": "Вы пытались создать {{PLURAL:$1|$1 страницу|$1 страницы|$1 страниц|1=страницу}}. Это превышает допустимый предел в {{PLURAL:$2|$2 страницу|$2 страницы|$2 страниц|1=одну страницу}}.",
 	"spserror-date-startdatemissing": "Начальная дата отсутствует.",
 	"spserror-date-internalerror": "Произошла ошибка при создании дат: $1",
-	"spserror-count-startvaluemalformed": "Начальное значение не является числом.",
-	"spserror-count-endvaluemalformed": "Конечное значение не является числом.",
-	"spserror-count-stepvaluemalformed": "Шаг значения не является числом.",
-	"spserror-count-digitsvaluemalformed": "Цифровое значение не является числом."
+	"spserror-count-startvaluemalformed": "Начальное значение — не число.",
+	"spserror-count-endvaluemalformed": "Конечное значение — не число.",
+	"spserror-count-stepvaluemalformed": "Значение шага — не число.",
+	"spserror-count-digitsvaluemalformed": "Значение разряда — не число."
 }
