@@ -20,9 +20,9 @@ class SPSException extends MWException {
 
 	/**
 	 * Return a HTML message.
-	 * 
+	 *
 	 * Overrides method from MWException: We don't need a backtrace
-	 * 
+	 *
 	 * @return String html to output
 	 */
 	function getHTML() {
@@ -31,9 +31,9 @@ class SPSException extends MWException {
 
 	/**
 	 * Return a text message.
-	 * 
+	 *
 	 * Overrides method from MWException: We don't need a backtrace
-	 * 
+	 *
 	 */
 	function getText() {
 		return $this->getMessage();
@@ -41,13 +41,13 @@ class SPSException extends MWException {
 
 	/**
 	 * Return titles of this error page
-	 * 
+	 *
 	 * Overrides method from MWException: We have a different page title
-	 * 
+	 *
 	 */
 	function getPageTitle() {
 		if ( $this->useMessageCache() ) {
-			return wfMsgForContent( 'spserror' );
+			return wfMessage( 'spserror' )->inContentLanguage()->text();
 		} else {
 			global $wgSitename;
 			return "$wgSitename error";

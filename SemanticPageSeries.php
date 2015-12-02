@@ -14,10 +14,13 @@
  * @file
  * @ingroup SemanticPageSeries
  */
+
+// Ensure that the script cannot be executed outside of MediaWiki.
 if ( !defined( 'MEDIAWIKI' ) ) {
 	die( 'This file is part of a MediaWiki extension, it is not a valid entry point.' );
 }
 
+// Do compatibility checks with connected software
 if ( !defined( 'SMW_VERSION' ) ) {
 	die( '<b>Error:</b> <a href="https://www.mediawiki.org/wiki/Extension:Semantic_Page_Series">Semantic Page Series</a> depends on the Semantic MediaWiki extension. You need to install <a href="https://www.mediawiki.org/wiki/Extension:Semantic_MediaWiki">Semantic MediaWiki</a> first.' );
 }
@@ -26,42 +29,39 @@ if ( !defined( 'SF_VERSION' ) ) {
 	die( '<b>Error:</b> <a href="https://www.mediawiki.org/wiki/Extension:Semantic_Page_Series">Semantic Page Series</a> depends on the Semantic Forms extension. You need to install <a href="https://www.mediawiki.org/wiki/Extension:Semantic_Forms">Semantic Forms</a> first.' );
 }
 
-/**
- * The Semantic Page Series version
- */
-define( 'SPS_VERSION', '0.3.0 alpha' );
+// Set the extension's version
+define( 'SPS_VERSION', '0.3.0' );
 
 // register the extension
 $wgExtensionCredits['semantic'][] = array(
 	'path' => __FILE__,
 	'name' => 'Semantic Page Series',
-	'author' => '[http://www.mediawiki.org/wiki/User:F.trott Stephan Gambke]',
+	'author' => array(
+		'[https://www.mediawiki.org/wiki/User:F.trott Stephan Gambke]',
+		'...'
+	),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Semantic_Page_Series',
 	'descriptionmsg' => 'semanticpageseries-desc',
 	'version' => SPS_VERSION,
+	'license-name' => 'GPL-2.0+'
 );
-
-
-// server-local path to this file
-$dir = dirname( __FILE__ );
 
 // register message files
 $wgMessagesDirs['SemanticPageSeries'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['SemanticPageSeries'] = $dir . '/SemanticPageSeries.i18n.php';
-$wgExtensionMessagesFiles['SemanticPageSeriesMagic'] = $dir . '/SemanticPageSeries.magic.php';
-$wgExtensionMessagesFiles['SemanticPageSeriesAlias'] = $dir . '/SemanticPageSeries.alias.php';
+$wgExtensionMessagesFiles['SemanticPageSeries'] = __DIR__ . '/SemanticPageSeries.i18n.php';
+$wgExtensionMessagesFiles['SemanticPageSeriesMagic'] = __DIR__ . '/SemanticPageSeries.magic.php';
+$wgExtensionMessagesFiles['SemanticPageSeriesAlias'] = __DIR__ . '/SemanticPageSeries.alias.php';
 
 // register class files with the Autoloader
-$wgAutoloadClasses['SPSUtils'] = $dir . '/includes/SPSUtils.php';
-$wgAutoloadClasses['SPSSpecialSeriesEdit'] = $dir . '/includes/SPSSpecialSeriesEdit.php';
-$wgAutoloadClasses['SPSException'] = $dir . '/includes/SPSException.php';
-$wgAutoloadClasses['SPSPageCreationJob'] = $dir . '/includes/SPSPageCreationJob.php';
+$wgAutoloadClasses['SPSUtils'] = __DIR__ . '/includes/SPSUtils.php';
+$wgAutoloadClasses['SPSSpecialSeriesEdit'] = __DIR__ . '/includes/SPSSpecialSeriesEdit.php';
+$wgAutoloadClasses['SPSException'] = __DIR__ . '/includes/SPSException.php';
+$wgAutoloadClasses['SPSPageCreationJob'] = __DIR__ . '/includes/SPSPageCreationJob.php';
 
-$wgAutoloadClasses['SPSIterator'] = $dir . '/includes/iterators/SPSIterator.php';
-$wgAutoloadClasses['SPSDateIterator'] = $dir . '/includes/iterators/SPSDateIterator.php';
-$wgAutoloadClasses['SPSCountIterator'] = $dir . '/includes/iterators/SPSCountIterator.php';
-$wgAutoloadClasses['SPSPageIterator'] = $dir . '/includes/iterators/SPSPageIterator.php';
-
+$wgAutoloadClasses['SPSIterator'] = __DIR__ . '/includes/iterators/SPSIterator.php';
+$wgAutoloadClasses['SPSDateIterator'] = __DIR__ . '/includes/iterators/SPSDateIterator.php';
+$wgAutoloadClasses['SPSCountIterator'] = __DIR__ . '/includes/iterators/SPSCountIterator.php';
+$wgAutoloadClasses['SPSPageIterator'] = __DIR__ . '/includes/iterators/SPSPageIterator.php';
 
 // register Special page
 $wgSpecialPages['SeriesEdit'] = 'SPSSpecialSeriesEdit'; # Tell MediaWiki about the new special page and its class name
@@ -86,6 +86,5 @@ $spsgPageGenerationLimits = array(
 	'user' => 10,
 	'sysop' => SPS_NOLIMIT
 );
-
 
 $wgJobClasses['spsCreatePage'] = 'SPSPageCreationJob';
