@@ -56,7 +56,7 @@ class SPSPageCreationJob extends Job {
 			// wrap result in ok/error message
 			if ( $result === true ) {
 				$options = $handler->getOptions();
-				$result = wfMsg( 'sf_autoedit_success', $options['target'], $options['form'] );
+				$result = wfMessage( 'sf_autoedit_success', $options['target'], $options['form'] )->text();
 			} else {
 				$result = wfMsgReplaceArgs( '$1', array( $result ) );
 			}
@@ -65,7 +65,7 @@ class SPSPageCreationJob extends Job {
 			try {
 				$handler->execute();
 				$options = $handler->getOptions();
-				$result = wfMsg( 'sf_autoedit_success', $options['target'], $options['form'] );
+				$result = wfMessage( 'sf_autoedit_success', $options['target'], $options['form'] )->text();
 			} catch ( MWException $e ) {
 				$result = wfMsgReplaceArgs( '$1', array( $result ) );
 			}
