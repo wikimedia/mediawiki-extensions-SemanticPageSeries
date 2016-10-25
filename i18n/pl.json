@@ -4,6 +4,9 @@
 			"Chrumps"
 		]
 	},
+	"spssuccess": "{{PLURAL:$1|Zostanie utworzona jedna strona|Zostaną utworzone $1 strony|Zostanie utworzonych $1 stron}}.",
 	"spssuccess-returntoorigin": "Powrót do $1",
-	"spserror": "Wystąpił błąd"
+	"spserror": "Wystąpił błąd",
+	"spserror-pagegenerationlimitexeeded": "Próbowano utworzyć {{PLURAL:$1|jedną stronę|$1 strony|$1 stron}}. To przekracza dopuszczalny limit {{PLURAL:$2|jednej strony|$2 stron}}.",
+	"spserror-date-internalerror": "Wystąpił błąd podczas tworzenia dat: $1"
 }
