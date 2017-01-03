@@ -98,7 +98,8 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 		}
 
 		$formArticle = new Article( $formTitle );
-		$formDefinition = StringUtils::delimiterReplace( '<noinclude>', '</noinclude>', '', $formArticle->getContent() );
+		$formArticleText = ContentHandler::getContentText( $formArticle->getPage()->getContent() );
+		$formDefinition = StringUtils::delimiterReplace( '<noinclude>', '</noinclude>', '', $formArticleText );
 
 		// formSubmitted
 		$formSubmitted = false;
