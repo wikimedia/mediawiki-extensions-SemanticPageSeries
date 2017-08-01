@@ -30,7 +30,7 @@ if ( !defined( 'SF_VERSION' ) ) {
 }
 
 // Set the extension's version
-define( 'SPS_VERSION', '0.3.0' );
+define( 'SPS_VERSION', '0.4.0' );
 
 // register the extension
 $wgExtensionCredits['semantic'][] = array(
@@ -48,7 +48,6 @@ $wgExtensionCredits['semantic'][] = array(
 
 // register message files
 $wgMessagesDirs['SemanticPageSeries'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['SemanticPageSeries'] = __DIR__ . '/SemanticPageSeries.i18n.php';
 $wgExtensionMessagesFiles['SemanticPageSeriesMagic'] = __DIR__ . '/SemanticPageSeries.magic.php';
 $wgExtensionMessagesFiles['SemanticPageSeriesAlias'] = __DIR__ . '/SemanticPageSeries.alias.php';
 
@@ -64,7 +63,7 @@ $wgAutoloadClasses['SPSCountIterator'] = __DIR__ . '/includes/iterators/SPSCount
 $wgAutoloadClasses['SPSPageIterator'] = __DIR__ . '/includes/iterators/SPSPageIterator.php';
 
 // register Special page
-$wgSpecialPages['SeriesEdit'] = 'SPSSpecialSeriesEdit'; # Tell MediaWiki about the new special page and its class name
+$wgSpecialPages['SeriesEdit'] = 'SPSSpecialSeriesEdit'; // Tell MediaWiki about the new special page and its class name
 
 // register hook handlers
 
