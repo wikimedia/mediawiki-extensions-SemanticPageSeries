@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Urhixidur"
+			"Urhixidur",
+			"Wladek92"
 		]
 	},
 	"semanticpageseries-desc": "Créer une série de pages depuis un [https://www.mediawiki.org/wiki/Extension:Semantic_Forms formulaire sémantique]",
@@ -10,9 +11,9 @@
 	"spssuccess": "{{PLURAL:$1|Une page sera créée|$1 pages seront créées}}.",
 	"spssuccess-returntoorigin": "Revenir à $1",
 	"spserror": "Une erreur est survenue",
-	"spserror-diffnotsupported": "L’action diff n’est pas prise en charge pour les séries de page.",
-	"spserror-previewnotsupported": "L’action de prévisualisation n’est pas prise en charge pour les séries de page.",
-	"spserror-noiteratorname": "Aucun itérateur n'a été spécifié. Vous devez définir le paramètre \"iterator\" dans l'appel à la fonction #serieslink de l'analyseur.",
+	"spserror-diffnotsupported": "L’action diff n’est pas prise en charge pour les séries de pages.",
+	"spserror-previewnotsupported": "L’action de prévisualisation n’est pas prise en charge pour les séries de pages.",
+	"spserror-noiteratorname": "Aucun itérateur n'a été spécifié. Vous devez définir le paramètre « iterator » dans l'appel à la fonction #serieslink de l'analyseur.",
 	"spserror-iteratorunknown": "L'itérateur \"$1\" n'existe pas. Vous devez corriger le paramètre \"iterator\" dans l'appel à la fonction #serieslink de l'analyseur.",
 	"spserror-noformname": "Aucun nom de formulaire n'a été fourni. Vous devez définir le paramètre \"form\" dans la fonction #serieslink de l'analyseur.",
 	"spserror-formunknown": "Le formulaire \"$1\" n'existe pas.",
