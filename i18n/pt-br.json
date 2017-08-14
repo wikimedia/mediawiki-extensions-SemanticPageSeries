@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jaideraf"
+		]
+	},
+	"semanticpageseries-desc": "Criar uma série de páginas a partir de um formulário do [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Forms]",
+	"spssuccesstitle": "Criando páginas de $1",
+	"spssuccess": "{{PLURAL:$1|Será criada uma página|Serão criadas $1 páginas}}.",
+	"spssuccess-returntoorigin": "Voltar a $1",
+	"spserror": "Ocorreu um erro",
+	"spserror-diffnotsupported": "A análise de diferenças não é suportada para séries de páginas.",
+	"spserror-previewnotsupported": "A previsão de página não é suportada para séries de páginas.",
+	"spserror-formunknown": "O formulário \"$1\" não existe.",
+	"spserror-date-startdatemissing": "Está faltando a data de início.",
+	"spserror-count-startvaluemalformed": "O valor de início não é um número.",
+	"spserror-count-endvaluemalformed": "O valor de fim não é um número.",
+	"spserror-count-digitsvaluemalformed": "O valor dos dígitos não é um número."
+}
