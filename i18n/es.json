@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Armando-Martin",
-			"Macofe"
+			"Macofe",
+			"Fitoschido"
 		]
 	},
 	"semanticpageseries-desc": "Crear una serie de páginas a partir de un [https://www.mediawiki.org/wiki/Extension:Semantic_Forms formulario semántico]",
@@ -10,8 +11,8 @@
 	"spssuccess": "{{PLURAL:$1|Se va a crear una página.|Se van a crear $1 páginas.}}",
 	"spssuccess-returntoorigin": "Volver a $1.",
 	"spserror": "Ha ocurrido un error",
-	"spserror-diffnotsupported": "La acción \"diff\" no está soportada para las series de páginas.",
-	"spserror-previewnotsupported": "La acción de previsualización no está soportada para las series de páginas.",
+	"spserror-diffnotsupported": "No se admite la generación de diferencias en series de páginas.",
+	"spserror-previewnotsupported": "No se admite la generación de previsualizaciones en series de páginas.",
 	"spserror-noiteratorname": "No se ha especificado ningún iterador. Tiene que definir el parámetro \"iterator\" en la llamada a la función #serieslink del analizador (parser).",
 	"spserror-iteratorunknown": "No existe el iterador \"$1\". Tiene que corregir el parámetro \"iterator\" en la llamada a la función #serieslink del analizador (parser).",
 	"spserror-noformname": "No se ha dado ningún formulario. Tiene que definir el parámetro \"form\" en la llamada a la función #serieslink del analizador (parser).",
