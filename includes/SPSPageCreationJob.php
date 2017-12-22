@@ -28,7 +28,7 @@ class SPSPageCreationJob extends Job {
 	 */
 	function run() {
 
-		global $wgUser, $wgCommandLineMode;
+		global $wgUser;
 
 		$oldUser = $wgUser;
 		$wgUser = User::newFromId( $this->params['user'] );
