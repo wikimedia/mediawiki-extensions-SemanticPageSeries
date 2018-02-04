@@ -13,7 +13,7 @@
 	"spserror-previewnotsupported": "Le action de previsualisation non es supportate pro series de paginas.",
 	"spserror-noiteratorname": "Nulle iterator specificate. Es necessari specificar le parametro \"iterator\" in le appello al function analysator #serieslink.",
 	"spserror-iteratorunknown": "Le iterator \"$1\" non existe. Es necessari corriger le parametro \"iterator\" in le appello al function analysator #serieslink.",
-	"spserror-noformname": "Nulle nomine de formulario specificate.",
+	"spserror-noformname": "Nulle nomine de formulario specificate. Es necessari specificar le parametro \"form\" in le appello al function analysator #serieslink.",
 	"spserror-formunknown": "Le formulario \"$1\" non existe.",
 	"spserror-notargetformname": "Nulle nomine de formulario de destination specificate. Es necessari specificar le parametro \"target form\" in le appello al function analysator #serieslink.",
 	"spserror-notargetfieldname": "Nulle nomine de campo de destination specificate. Es necessari specificar le parametro \"target field\" in le appello al function analysator #serieslink.",
