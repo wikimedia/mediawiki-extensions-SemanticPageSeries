@@ -43,7 +43,7 @@ $wgExtensionCredits['semantic'][] = array(
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Semantic_Page_Series',
 	'descriptionmsg' => 'semanticpageseries-desc',
 	'version' => SPS_VERSION,
-	'license-name' => 'GPL-2.0+'
+	'license-name' => 'GPL-2.0-or-later'
 );
 
 // register message files
