@@ -112,7 +112,7 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 			$pageContents = SFFormUtils::getPreloadedText( $request->getVal( 'preload' ) );
 		} else {
 			// let other extensions preload the page, if they want
-			wfRunHooks( 'sfEditFormPreloadText', array(&$pageContents, $targetTitle, $formTitle) );
+			Hooks::run( 'sfEditFormPreloadText', array(&$pageContents, $targetTitle, $formTitle) );
 		}
 
 		// pageIsSource
@@ -134,7 +134,7 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 		}
 
 		$preFormHtml = '';
-		wfRunHooks( 'sfHTMLBeforeForm', array(&$targetTitle, &$preFormHtml) );
+		Hooks::run( 'sfHTMLBeforeForm', array(&$targetTitle, &$preFormHtml) );
 
 		$text = '<form name="createbox" id="sfForm" action="" method="post" class="createbox">'
 			. $preFormHtml
