@@ -7,7 +7,6 @@
  * @file
  * @ingroup SemanticPageSeries
  */
-// @codingStandardsIgnoreFile
 
 $specialPageAliases = array();
 
