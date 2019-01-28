@@ -4,6 +4,8 @@
 			"Joetaras"
 		]
 	},
+	"spssuccesstitle": "Stoche a ccreje $1 pàggene",
+	"spssuccess": "{{PLURAL:$1|'Na pàgene|$1 pàggene}} onna essere ccrejate.",
 	"spssuccess-returntoorigin": "Tuèrne a $1",
 	"spserror": "Ave assute 'n'errore",
 	"spserror-count-startvaluemalformed": "'U valore iniziale non g'è 'nu numere.",
