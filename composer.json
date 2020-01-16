@@ -1,7 +1,7 @@
 {
 	"require": {
 		"mediawiki/semantic-media-wiki": ">=1.7",
-		"mediawiki/semantic-forms": "3.7.0"
+		"mediawiki/page-forms": "3.7.0"
 	},
 	"require-dev": {
 		"jakub-onderka/php-parallel-lint": "1.0.0",
