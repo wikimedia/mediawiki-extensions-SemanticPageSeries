@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Simon Shek",
-			"LNDDYL"
+			"LNDDYL",
+			"Simon Shek"
 		]
 	},
 	"semanticpageseries-desc": "利用一個[https://www.mediawiki.org/wiki/Extension:Semantic_Forms 語義表單]建立一系列的頁面",

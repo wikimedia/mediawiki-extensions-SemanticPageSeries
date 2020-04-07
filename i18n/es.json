@@ -2,8 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Armando-Martin",
-			"Macofe",
-			"Fitoschido"
+			"Fitoschido",
+			"Macofe"
 		]
 	},
 	"semanticpageseries-desc": "Crear una serie de páginas a partir de un [https://www.mediawiki.org/wiki/Extension:Semantic_Forms formulario semántico]",

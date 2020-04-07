@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Linforest",
-			"Yfdyh000",
-			"Mywood",
 			"Duolaimi",
 			"Impersonator 1",
-			"Liuxinyu970226"
+			"Linforest",
+			"Liuxinyu970226",
+			"Mywood",
+			"Yfdyh000"
 		]
 	},
 	"semanticpageseries-desc": "利用一个[https://www.mediawiki.org/wiki/Extension:Semantic_Forms 语义表单]创建一系列的页面",
