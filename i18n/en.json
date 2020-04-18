@@ -4,7 +4,7 @@
 			"F.trott"
 		]
 	},
-	"semanticpageseries-desc": "Creating a series of pages from one [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Form]",
+	"semanticpageseries-desc": "Creating a series of pages from one [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms Page Form]",
 	"spssuccesstitle": "Creating $1 pages",
 	"spssuccess": "{{PLURAL:$1|One page|$1 pages}} will be created.",
 	"spssuccess-returntoorigin": "Return to $1",
