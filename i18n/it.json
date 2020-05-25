@@ -4,7 +4,7 @@
 			"Beta16"
 		]
 	},
-	"semanticpageseries-desc": "Crea una serie di pagine da un [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Form]",
+	"semanticpageseries-desc": "Crea una serie di pagine da un [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms Page Form]",
 	"spssuccesstitle": "Creazione di pagine $1",
 	"spssuccess": "{{PLURAL:$1|Una pagina|$1 pagine}} saranno create.",
 	"spssuccess-returntoorigin": "Torna a $1",

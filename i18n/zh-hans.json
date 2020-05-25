@@ -6,10 +6,11 @@
 			"Linforest",
 			"Liuxinyu970226",
 			"Mywood",
-			"Yfdyh000"
+			"Yfdyh000",
+			"列维劳德"
 		]
 	},
-	"semanticpageseries-desc": "利用一个[https://www.mediawiki.org/wiki/Extension:Semantic_Forms 语义表单]创建一系列的页面",
+	"semanticpageseries-desc": "利用一个[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms 页面表单]创建一系列的页面",
 	"spssuccesstitle": "创建$1页面",
 	"spssuccess": "将会创建{{PLURAL:$1|一个页面|$1个页面}}。",
 	"spssuccess-returntoorigin": "返回至$1",

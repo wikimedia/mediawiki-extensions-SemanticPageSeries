@@ -4,7 +4,7 @@
 			"BaRaN6161 TURK"
 		]
 	},
-	"semanticpageseries-desc": "Bir sayfadan bir dizi sayfa oluşturma [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Anlamsal Formu]",
+	"semanticpageseries-desc": "Bir [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms Sayfa Formundan] bir dizi sayfa oluşturma",
 	"spssuccesstitle": "$1 sayfa oluşturma",
 	"spssuccess": "{{PLURAL:$1|Bir sayfa|$1 sayfa}} oluşturacaktır.",
 	"spssuccess-returntoorigin": "$1 geri dön",

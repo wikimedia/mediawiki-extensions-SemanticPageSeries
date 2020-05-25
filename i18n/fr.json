@@ -7,7 +7,7 @@
 			"Wladek92"
 		]
 	},
-	"semanticpageseries-desc": "Créer une série de pages depuis un [https://www.mediawiki.org/wiki/Extension:Semantic_Forms formulaire sémantique]",
+	"semanticpageseries-desc": "Créer une série de pages depuis un [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms formulaire de page]",
 	"spssuccesstitle": "Créer $1 pages",
 	"spssuccess": "{{PLURAL:$1|Une page sera créée|$1 pages seront créées}}.",
 	"spssuccess-returntoorigin": "Revenir à $1",

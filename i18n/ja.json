@@ -4,7 +4,7 @@
 			"Shirayuki"
 		]
 	},
-	"semanticpageseries-desc": "1つの[https://www.mediawiki.org/wiki/Extension:Semantic_Forms 意味的フォーム]から一連のページを作成する",
+	"semanticpageseries-desc": "1つの[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms ページフォーム]から一連のページを作成する",
 	"spssuccesstitle": "$1 ページを作成中",
 	"spssuccess": "{{PLURAL:$1|$1 ページ}}が作成されます。",
 	"spssuccess-returntoorigin": "$1 に戻る",
