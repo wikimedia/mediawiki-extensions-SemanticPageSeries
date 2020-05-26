@@ -5,7 +5,7 @@
 			"Jaideraf"
 		]
 	},
-	"semanticpageseries-desc": "Criar uma série de páginas a partir de um formulário do [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Forms]",
+	"semanticpageseries-desc": "Criar uma série de páginas a partir de um formulário do [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms Semantic Forms]",
 	"spssuccesstitle": "Criando páginas de $1",
 	"spssuccess": "{{PLURAL:$1|Será criada uma página|Serão criadas $1 páginas}}.",
 	"spssuccess-returntoorigin": "Voltar a $1",
