@@ -4,10 +4,11 @@
 			"Andriykopanytsia",
 			"Base",
 			"Steve.rusyn",
-			"SteveR"
+			"SteveR",
+			"Ата"
 		]
 	},
-	"semanticpageseries-desc": "Створення серій сторінок із одної [https://www.mediawiki.org/wiki/Extension:Semantic_Forms семантичної форми]",
+	"semanticpageseries-desc": "Створення серії сторінок із одної [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms Сторінкової форми]",
 	"spssuccesstitle": "Створення $1 {{PLURAL:$1|1=сторінки|сторінок}}",
 	"spssuccess": "{{PLURAL:$1|Одна сторінка|$1 сторінки|$1 сторінок}} буде створено.",
 	"spssuccess-returntoorigin": "Повернутись до $1",
