@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Kghbln",
-			"Metalhead64"
+			"Metalhead64",
+			"Umherirrender"
 		]
 	},
-	"semanticpageseries-desc": "Ermöglicht das Erstellen einer Abfolge von Seiten mit einem von [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Forms] bereitgestellten Formular",
+	"semanticpageseries-desc": "Ermöglicht das Erstellen einer Abfolge von Seiten mit einem von [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms Semantic Forms] bereitgestellten Formular",
 	"spssuccesstitle": "$1 Seiten werden erstellt …",
 	"spssuccess": "{{PLURAL:$1|Eine Seite wird|$1 Seiten werden}} erstellt.",
 	"spssuccess-returntoorigin": "Zurück zu $1",
