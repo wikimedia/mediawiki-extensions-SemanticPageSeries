@@ -4,7 +4,7 @@
 			"McDutchie"
 		]
 	},
-	"semanticpageseries-desc": "Crea un serie de paginas ab un sol [https://www.mediawiki.org/wiki/Extension:Semantic_Forms formulario semantic]",
+	"semanticpageseries-desc": "Crea un serie de paginas ab un sol [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms formulario de pagina]",
 	"spssuccesstitle": "Crea $1 paginas",
 	"spssuccess": "{{PLURAL:$1|Un pagina|$1 paginas}} essera create.",
 	"spssuccess-returntoorigin": "Retornar a $1",
