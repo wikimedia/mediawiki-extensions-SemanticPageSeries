@@ -4,7 +4,7 @@
 			"Bjankuloski06"
 		]
 	},
-	"semanticpageseries-desc": "Создавање на низа страници од еден [https://www.mediawiki.org/wiki/Extension:Semantic_Forms?uselang=mk Семантички образец]",
+	"semanticpageseries-desc": "Создавање на низа страници од еден [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms Семантички образец]",
 	"spssuccesstitle": "Создате $1 страници",
 	"spssuccess": "{{PLURAL:$1|Ќе биде создадена една страница|Ќе бидат создадени $1 страници}}",
 	"spssuccess-returntoorigin": "Назад на $1",
