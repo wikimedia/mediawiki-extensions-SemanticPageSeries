@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"McDutchie",
 			"SPQRobin",
 			"Saruman",
 			"Siebrand"
 		]
 	},
-	"semanticpageseries-desc": "Een reeks pagina's aanmaken vanuit één [https://www.mediawiki.org/wiki/Extension:Semantic_Forms semantisch formulier]",
+	"semanticpageseries-desc": "Een reeks pagina's aanmaken vanuit één  [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms Paginaformulier]",
 	"spssuccesstitle": "Er worden $1 pagina's aangemaakt",
 	"spssuccess": "Er {{PLURAL:$1|wordt één pagina|worden $1 pagina's}} aangemaakt.",
 	"spssuccess-returntoorigin": "Terugkeren naar $1",
