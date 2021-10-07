@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * File holding the SPSSpecialSeriesEdit class
  *
@@ -401,7 +403,9 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 		global $wgUser, $spsgPageGenerationLimits;
 
 		$limit = 0;
-		$groups = $wgUser->getEffectiveGroups();
+		$groups = MediaWikiServices::getInstance()
+			->getUserGroupManager()
+			->getUserEffectiveGroups( $wgUser );
 
 		foreach ( $groups as $group ) {
 			if ( array_key_exists( $group, $spsgPageGenerationLimits) ) {
