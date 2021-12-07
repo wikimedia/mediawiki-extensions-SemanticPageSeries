@@ -4,7 +4,7 @@
 			"Hamilton Abreu"
 		]
 	},
-	"semanticpageseries-desc": "Criar uma série de páginas a partir de um [https://www.mediawiki.org/wiki/Extension:Semantic_Forms formulário semântico]",
+	"semanticpageseries-desc": "Criar uma série de páginas a partir de um [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms formulário de página]",
 	"spssuccesstitle": "A criar $1 páginas",
 	"spssuccess": "{{PLURAL:$1|Será criada uma página|Serão criadas $1 páginas}}.",
 	"spssuccess-returntoorigin": "Voltar a $1",
