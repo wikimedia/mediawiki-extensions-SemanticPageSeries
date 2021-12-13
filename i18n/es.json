@@ -3,10 +3,11 @@
 		"authors": [
 			"Armando-Martin",
 			"Fitoschido",
-			"Macofe"
+			"Macofe",
+			"ArenaL5"
 		]
 	},
-	"semanticpageseries-desc": "Crear una serie de páginas a partir de un [https://www.mediawiki.org/wiki/Extension:Semantic_Forms formulario semántico]",
+	"semanticpageseries-desc": "Crear una serie de páginas a partir de un [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms formulario de página]",
 	"spssuccesstitle": "Creando $1 páginas",
 	"spssuccess": "{{PLURAL:$1|Se va a crear una página.|Se van a crear $1 páginas.}}",
 	"spssuccess-returntoorigin": "Volver a $1.",
