@@ -3,16 +3,17 @@
 		"authors": [
 			"Armin1392",
 			"Ebraminio",
-			"Reza1615"
+			"Reza1615",
+			"Beginneruser"
 		]
 	},
 	"semanticpageseries-desc": "ایجاد یک سری صفحات از یک [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Form]",
-	"spssuccesstitle": "ایجاد $1 صفحات",
+	"spssuccesstitle": "درحال ایجاد $1 صفحه‌ها",
 	"spssuccess": "{{PLURAL:$1|یک صفحه|$1 صفحات}} ایجاد خواهد شد.",
 	"spssuccess-returntoorigin": "بازگشت به $1",
 	"spserror": "يک خطا اتفاق افتاد",
-	"spserror-diffnotsupported": "عمل متفاوت برای مجموعه صفحات، پشتیبانی نشده‌است.",
-	"spserror-previewnotsupported": "عمل پیش‌نمایش برای مجموعهٔ صفحات پشتیبانی نشده‌است.",
+	"spserror-diffnotsupported": "عمل متفاوت برای مجموعه صفحه‌ها، پشتیبانی نشده‌است.",
+	"spserror-previewnotsupported": "عمل پیش‌نمایش برای مجموعهٔ صفحه‌ها پشتیبانی نشده‌است.",
 	"spserror-noiteratorname": "هیچ تکرارکننده‌ای مشخص نشده‌است. شما باید پارامتر «تکرارکننده» را در #سری‌های پیوند تماس عملیات تجزیه‌کننده، تنظیم کنید.",
 	"spserror-iteratorunknown": "تکرارکننده «$1» وجود ندارد. شما باید پارامتر «تکرارکننده» را در #سری‌های پیوند تماس عملیات تجزیه‌کننده، درست کنید.",
 	"spserror-noformname": "هیچ نام فرمی داده نشده‌است. شما باید پارامتر \"فرم\" را در #سری‌های پیوند تماس عملیات تجزیه‌کننده، تنظیم کنید.",
