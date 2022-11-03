@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"ديفيد"
+			"ديفيد",
+			"Meno25"
 		]
 	},
-	"semanticpageseries-desc": "إنشاء سلسلة من الصفحات من [https://www.mediawiki.org/wiki/Extension:Semantic_Forms نموذج دلالي] واحد",
+	"semanticpageseries-desc": "إنشاء سلسلة من الصفحات من [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms نموذج دلالي] واحد",
 	"spssuccesstitle": "إنشاء $1 صفحات",
 	"spssuccess": "سيتم إنشاء {{PLURAL:$1|صفحة واحدة|$1 صفحة}}.",
 	"spssuccess-returntoorigin": "عد إلى $1",
