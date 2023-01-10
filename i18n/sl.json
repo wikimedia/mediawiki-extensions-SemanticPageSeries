@@ -5,5 +5,6 @@
 		]
 	},
 	"spserror": "Prišlo je do napake",
+	"spserror-previewnotsupported": "Za serije strani dejanje predogleda ni podprto.",
 	"spserror-date-internalerror": "Pri ustvarjanju datumov je prišlo do napake: $1"
 }
