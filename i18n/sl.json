@@ -4,8 +4,26 @@
 			"Eleassar"
 		]
 	},
+	"semanticpageseries-desc": "Ustvarjanje serije strani iz enega [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms obrazca strani]",
+	"spssuccesstitle": "Ustvarjanje $1 strani",
+	"spssuccess": "{{PLURAL:$1|Ustvarjena bo $1 stran|Ustvarjeni bosta $1 strani|Ustvarjene bodo $1 strani|Ustvarjenih bo $1 strani}}",
+	"spssuccess-returntoorigin": "Vrnitev na $1",
 	"spserror": "Prišlo je do napake",
-	"spserror-previewnotsupported": "Za serije strani dejanje predogleda ni podprto.",
+	"spserror-diffnotsupported": "Dejanje razlikovanja ni podprto za serije strani.",
+	"spserror-previewnotsupported": "Dejanje predogleda ni podprto za serije strani.",
+	"spserror-noiteratorname": "Iterator ni določen. V klicu funkcije razčlenjevalnika #serieslink morate nastaviti parameter »iterator«.",
+	"spserror-iteratorunknown": "Iterator »$1« ne obstaja. Popraviti morate parameter »iterator« v klicu funkcije razčlenjevalnika #serieslink.",
+	"spserror-noformname": "Ime obrazca ni navedeno. V funkciji razčlenjevalnika #serieslink morate nastaviti parameter »form«.",
+	"spserror-formunknown": "Obrazec »$1 ne obstaja.",
+	"spserror-notargetformname": "Ime ciljnega obrazca ni navedeno. V klicu funkcije razčlenjevalnika #serieslink morate nastaviti parameter »target form«.",
+	"spserror-notargetfieldname": "Ime ciljnega polja ni navedeno. V klicu funkcije razčlenjevalnika #serieslink morate nastaviti parameter »target field«.",
+	"spserror-iteratorparammissing": "V klicu #serieslink manjkajo naslednji parametri iteratorja:\n$1",
+	"spserror-noiteratordata": "V poslanih podatkih ni bilo mogoče najti parametrov iteratorja.",
+	"spserror-pagegenerationlimitexeeded": "Poskušali ste ustvariti {{PLURAL:$1|$1 stran|$1 strani}}. To presega dovoljeno omejitev {{PLURAL:$2|$1 strani}}.",
 	"spserror-date-startdatemissing": "Manjka začetni datum.",
-	"spserror-date-internalerror": "Pri ustvarjanju datumov je prišlo do napake: $1"
+	"spserror-date-internalerror": "Pri ustvarjanju datumov je prišlo do napake: $1",
+	"spserror-count-startvaluemalformed": "Začetna vrednost ni številka.",
+	"spserror-count-endvaluemalformed": "Končna vrednost ni številka.",
+	"spserror-count-stepvaluemalformed": "Vrednost koraka ni številka.",
+	"spserror-count-digitsvaluemalformed": "Vrednost števk ni številka."
 }
