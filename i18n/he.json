@@ -1,8 +1,30 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"ExampleTomer"
 		]
 	},
-	"spserror-date-internalerror": "אירעה שגיאה בעת יצירת התאריכים: $1"
+	"semanticpageseries-desc": "יצירת סדרה של דפים מ[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms טופס אחד]",
+	"spssuccesstitle": "יצירה של $1 דפים",
+	"spssuccess": "{{PLURAL:$1|דף אחד ייווצר|$1 דפים ייווצרו}}.",
+	"spssuccess-returntoorigin": "חזרה אל $1",
+	"spserror": "אירעה שגיאה",
+	"spserror-diffnotsupported": "פעולת ההבדל אינה נתמכת עבור סדרות דפים.",
+	"spserror-previewnotsupported": "פעולת התצוגה המקדימה אינה נתמכת עבור סדרות דפים.",
+	"spserror-noiteratorname": "לא צוין איטרטור. יש להגדיר את הפרמטר \"iterator\" בקריאה לפונקציה מפענח #serieslink.",
+	"spserror-iteratorunknown": "האיטרטור \"$1\" אינו קיים. יש לתקן את הפרמטר \"iterator\" בקריאה לפונקציית המנתח #serieslink.",
+	"spserror-noformname": "לא ניתן שם טופס. יש להגדיר את הפרמטר \"form\" בפונקציית המפענח #serieslink.",
+	"spserror-formunknown": "הטופס \"$1\" אינו קיים.",
+	"spserror-notargetformname": "לא צוין טופס יעד. יש להגדיר את הפרמטר \"target form\" בקריאה לפונקציה מפענח #serieslink.",
+	"spserror-notargetfieldname": "לא ניתן שם לשדה טופס. יש להגדיר את הפרמטר \"target field\" בפונקציית המפענח #serieslink.",
+	"spserror-iteratorparammissing": "פרמטרי האיטרטור הבאים חסרים בקריאה לפונקציה #serieslink:\n$1",
+	"spserror-noiteratordata": "לא נמצאו פרמטרי איטרטור בנתונים שנשלחו.",
+	"spserror-pagegenerationlimitexeeded": "ניסית ליצור {{PLURAL:$1|דף אחד|$1 דפים}}. זה חורג מהמגבלה המותרת של {{PLURAL:$2|דף אחד|$2 דפים}}.",
+	"spserror-date-startdatemissing": "תאריך ההתחלה חסר.",
+	"spserror-date-internalerror": "אירעה שגיאה בעת יצירת התאריכים: $1",
+	"spserror-count-startvaluemalformed": "ערך ההתחלה אינו מספר.",
+	"spserror-count-endvaluemalformed": "ערך הסוף אינו מספר.",
+	"spserror-count-stepvaluemalformed": "ערך הצעד אינו מספר.",
+	"spserror-count-digitsvaluemalformed": "ערך הספרות אינו מספר."
 }
