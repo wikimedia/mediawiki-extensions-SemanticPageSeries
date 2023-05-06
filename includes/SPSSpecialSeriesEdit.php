@@ -109,12 +109,13 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 		// pageContents
 		$pageContents = null;
 
+		$hookContainer = MediaWikiServices::getInstance()->getHookContainer();
 		// get 'preload' query value, if it exists
 		if ( $request->getCheck( 'preload' ) ) {
 			$pageContents = SFFormUtils::getPreloadedText( $request->getVal( 'preload' ) );
 		} else {
 			// let other extensions preload the page, if they want
-			Hooks::run( 'sfEditFormPreloadText', array(&$pageContents, $targetTitle, $formTitle) );
+			$hookContainer->run( 'sfEditFormPreloadText', array(&$pageContents, $targetTitle, $formTitle) );
 		}
 
 		// pageIsSource
@@ -136,7 +137,7 @@ class SPSSpecialSeriesEdit extends SpecialPage {
 		}
 
 		$preFormHtml = '';
-		Hooks::run( 'sfHTMLBeforeForm', array(&$targetTitle, &$preFormHtml) );
+		$hookContainer->run( 'sfHTMLBeforeForm', array(&$targetTitle, &$preFormHtml) );
 
 		$text = '<form name="createbox" id="sfForm" action="" method="post" class="createbox">'
 			. $preFormHtml
