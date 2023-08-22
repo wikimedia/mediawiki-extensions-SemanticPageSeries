@@ -3,13 +3,14 @@
 		"authors": [
 			"Kly",
 			"LNDDYL",
-			"Simon Shek"
+			"Simon Shek",
+			"Winston Sung"
 		]
 	},
 	"semanticpageseries-desc": "從 [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms Page Form] 來建立一系列頁面",
 	"spssuccesstitle": "建立 $1 頁面",
 	"spssuccess": "將會建立{{PLURAL:$1|一個頁面|$1個頁面}}。",
-	"spssuccess-returntoorigin": "返回到$1",
+	"spssuccess-returntoorigin": "返回「$1」",
 	"spserror": "出現了一個錯誤",
 	"spserror-diffnotsupported": "頁面系列不支持diff差別比較操作。",
 	"spserror-previewnotsupported": "頁面系列不支持預覽操作。",
