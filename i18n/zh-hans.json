@@ -11,7 +11,7 @@
 			"列维劳德"
 		]
 	},
-	"semanticpageseries-desc": "利用一个[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms 页面表单]创建一系列的页面",
+	"semanticpageseries-desc": "从一个[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms 页面表单]创建一系列页面",
 	"spssuccesstitle": "正在创建$1页面",
 	"spssuccess": "{{PLURAL:$1|$1个页面}}即将创建。",
 	"spssuccess-returntoorigin": "返回$1",
@@ -24,9 +24,9 @@
 	"spserror-formunknown": "表单“$1”不存在。",
 	"spserror-notargetformname": "没有给出目标表单名称。您必须在#serieslink解析器函数调用内设置参数“target form”。",
 	"spserror-notargetfieldname": "没有给出目标字段名称。您必须在#serieslink解析器函数调用内设置参数“target field”。",
-	"spserror-iteratorparammissing": "#serieslink调用中缺少下列迭代器参数：\n$1",
-	"spserror-noiteratordata": "在已发送的数据中找不到迭代器参数。",
-	"spserror-pagegenerationlimitexeeded": "您已尝试生成{{PLURAL:$1|一个页面|$1个页面}}。这超过了您的允许极限：{{PLURAL:$2|一个页面|$2个页面}}。",
+	"spserror-iteratorparammissing": "以下迭代器参数在#serieslink调用内缺失：$1",
+	"spserror-noiteratordata": "在发送的数据中没有找到迭代器参数。",
+	"spserror-pagegenerationlimitexeeded": "您尝试生成{{PLURAL:$1|$1个页面}}。这超出了您被允许的{{PLURAL:$2|$2个页面}}的限制。",
 	"spserror-date-startdatemissing": "缺少开始日期。",
 	"spserror-date-internalerror": "创建日期时出错：$1",
 	"spserror-count-startvaluemalformed": "开始值不是数字。",
