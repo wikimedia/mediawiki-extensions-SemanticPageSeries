@@ -4,7 +4,7 @@
 			"Toliño"
 		]
 	},
-	"semanticpageseries-desc": "Crear unha serie de páxinas a partir dun [https://www.mediawiki.org/wiki/Extension:Semantic_Forms formulario semántico]",
+	"semanticpageseries-desc": "Crear unha serie de páxinas a partir dun [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms formulario de páxina]",
 	"spssuccesstitle": "Creando páxinas do tipo $1",
 	"spssuccess": "{{PLURAL:$1|Vaise crear unha páxina.|Vanse crear $1 páxinas.}}",
 	"spssuccess-returntoorigin": "Volver a \"$1\"",
