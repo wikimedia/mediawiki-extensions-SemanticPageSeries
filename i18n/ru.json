@@ -3,11 +3,12 @@
 		"authors": [
 			"Diman Russkov",
 			"Kaganer",
+			"Krinkle",
 			"Okras",
 			"Pacha Tchernof"
 		]
 	},
-	"semanticpageseries-desc": "Создание серии страниц из одной [https://www.mediawiki.org/wiki//Special:MyLanguageExtension:Page_Forms формы]",
+	"semanticpageseries-desc": "Создание серии страниц из одной [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms формы]",
 	"spssuccesstitle": "Создание $1 страниц",
 	"spssuccess": "{{PLURAL:$1|Будет создана $1 страница|Будут созданы $1 страницы|Будет создано $1 страниц|1=Будет создана страница}}.",
 	"spssuccess-returntoorigin": "Вернуться к $1",
