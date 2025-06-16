@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"ديفيد",
-			"Meno25"
+			"Meno25",
+			"Mohammed Qays"
 		]
 	},
 	"semanticpageseries-desc": "إنشاء سلسلة من الصفحات من [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms نموذج دلالي] واحد",
@@ -20,7 +21,7 @@
 	"spserror-notargetfieldname": "لم يتم تحديد اسم مجال مستهدف; يجب عليك تعيين الوسيط \"حقل الهدف\" في استدعاء دالة المحلل #serieslink.",
 	"spserror-iteratorparammissing": "$1\nالوسائط المكررة التالية مفقودة في استدعاء #serieslink: $1",
 	"spserror-noiteratordata": "لم يتم العثور على وسائط مكررة في البيانات المرسلة.",
-	"spserror-pagegenerationlimitexeeded": "لقد حاولت إنشاء {{PLURAL:$1|صفحة واحدة|$1 صفحة}}، يتجاوز ذلك الحد المسموح به لك {{PLURAL:$2|صفحة واحدة|$1 صفحة}}.",
+	"spserror-pagegenerationlimitexeeded": "لقد حاولت إنشاء {{PLURAL:$1|صفحة واحدة|$1 صفحات}}، وهذا يتجاوز الحد المسموح به وهو {{PLURAL:$2|صفحة واحدة|$2 صفحات}}.",
 	"spserror-date-startdatemissing": "تاريخ البدء مفقود.",
 	"spserror-date-internalerror": "حدث خطأ أثناء تكوين التواريخ: $1",
 	"spserror-count-startvaluemalformed": "قيمة البدء ليست رقما.",
