@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"spssuccesstitle": "$1 Säite ginn ugeluecht",
 	"spssuccess": "{{PLURAL:$1|Eng Säit gëtt|$1 Säite ginn}} ugeluecht.",
-	"spssuccess-returntoorigin": "Zréck op $1",
+	"spssuccess-returntoorigin": "Zeréck op $1",
 	"spserror": "Et ass e Feeler geschitt",
 	"spserror-diffnotsupported": "D'Aktioun 'Diff' gëtt fir  Serie vu Säiten net ënnerstëtzt.",
 	"spserror-previewnotsupported": "'Kucken ouni ze späicheren' gëtt fir Serie vu Säiten net ënnerstëtzt.",
