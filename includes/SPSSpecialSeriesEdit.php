@@ -12,6 +12,8 @@ use MediaWiki\MediaWikiServices;
 if ( !defined( 'SPS_VERSION' ) ) {
 	die( 'This file is part of the SemanticPageSeries extension, it is not a valid entry point.' );
 }
+use MediaWiki\Html\Html;
+use MediaWiki\Title\Title;
 
 /**
  * The SPSSpecialSeriesEdit class.
