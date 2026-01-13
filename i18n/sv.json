@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Martinwiss",
+			"Stefan2255",
 			"WikiPhoenix"
 		]
 	},
-	"semanticpageseries-desc": "Skapa flera sidor med hjälp av ett formulär som använder [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Form]",
+	"semanticpageseries-desc": "Skapa en serie sidor från ett [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms sidformulär]",
 	"spssuccesstitle": "Skapar $1 sidor",
 	"spssuccess": "{{PLURAL:$1|En sida |$1 sidor}} kommer att skapas.",
 	"spssuccess-returntoorigin": "Återgå till $1",
