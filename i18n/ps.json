@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"semanticpageseries-desc": "د [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms مخ فورمې] څخه د مخونو لړۍ جوړول",
+	"spssuccesstitle": "$1 مخونه جوړول",
+	"spssuccess": "{{PLURAL:$1|يو مخ|$1 مخونه}} به جوړ شي.",
+	"spssuccess-returntoorigin": "$1 ته ورستنېدل",
+	"spserror": "یوه تېروتنه رامنځته شوې",
+	"spserror-diffnotsupported": "د مخ لړۍ لپاره د توپير چاره نه ملاتړ کېږي.",
+	"spserror-previewnotsupported": "د مخ لړۍ لپاره د مخکتنې چاره نه ملاتړ کېږي.",
+	"spserror-date-startdatemissing": "پيلگره نېټه ورکه ده.",
+	"spserror-date-internalerror": "د نېټو جوړولو پرمهل يوه تېروتنه رامنځته شوه: $1",
+	"spserror-count-startvaluemalformed": "پيل ارزښت يوه شمېره نه ده.",
+	"spserror-count-endvaluemalformed": "پای ارزښت يوه شمېره نه ده.",
+	"spserror-count-stepvaluemalformed": "گام ارزښت يوه شمېره نه ده.",
+	"spserror-count-digitsvaluemalformed": "شمېريزه ارزښت يوه شمېره نه ده."
+}
