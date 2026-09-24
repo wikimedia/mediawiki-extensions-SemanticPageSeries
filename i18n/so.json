@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"semanticpageseries-desc": "Abuurista bogag taxane ah oo laga sameeyo hal [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms Foomka Bogga]",
+	"spssuccesstitle": "Abuurista $1 bog",
+	"spssuccess": "{{PLURAL:$1|Hal bog|$1 bog}} ayaa la abuuri doonaa.",
+	"spssuccess-returntoorigin": "Ku noqo $1",
+	"spserror": "Khalad ayaa dhacay",
+	"spserror-diffnotsupported": "Ficilka isbarbardhigga isbeddellada lama taageero taxanaha bogagga.",
+	"spserror-previewnotsupported": "Ficilka horudhaca lama taageero taxanaha bogagga.",
+	"spserror-noiteratorname": "Iteraatoor lama cayimin. Waa inaad dejisaa halbeegga \"iterator\" ee wicitaanka shaqada falanqayaha #serieslink.",
+	"spserror-iteratorunknown": "Iteraatoorka \"$1\" ma jiro. Waa inaad saxdaa halbeegga \"iterator\" ee wicitaanka shaqada falanqayaha #serieslink.",
+	"spserror-noformname": "Magaca foomka lama bixin. Waa inaad dejisaa halbeegga \"form\" ee shaqada falanqayaha #serieslink.",
+	"spserror-formunknown": "Foomka \"$1\" ma jiro.",
+	"spserror-notargetformname": "Magaca foomka bartilmaameedka lama bixin. Waa inaad dejisaa halbeegga \"target form\" ee wicitaanka shaqada falanqayaha #serieslink.",
+	"spserror-notargetfieldname": "Magaca meelaha bartilmaameedka lama bixin. Waa inaad dejisaa halbeegga \"target field\" ee wicitaanka shaqada falanqayaha #serieslink.",
+	"spserror-iteratorparammissing": "Halbeegyada iteraatoorka soo socda ayaa ka maqan wicitaanka #serieslink:\n$1",
+	"spserror-noiteratordata": "Wax halbeegyo iteraatoor ah lagama helin xogta la diray.",
+	"spserror-pagegenerationlimitexeeded": "Waxaad isku dayday inaad abuurto {{PLURAL:$1|hal bog|$1 bog}}. Tani waxay ka badan tahay xadka laguu oggol yahay oo ah {{PLURAL:$2|hal bog|$2 bog}}.",
+	"spserror-date-startdatemissing": "Taariikhda bilowga ayaa maqan.",
+	"spserror-date-internalerror": "Khalad ayaa dhacay intii lagu jiray abuurista taariikhaha: $1",
+	"spserror-count-startvaluemalformed": "Qiimaha bilowgu ma aha tiro.",
+	"spserror-count-endvaluemalformed": "Qiimaha dhammaadku ma aha tiro.",
+	"spserror-count-stepvaluemalformed": "Qiimaha tallaabadu ma aha tiro.",
+	"spserror-count-digitsvaluemalformed": "Qiimaha lambaradu ma aha tiro."
+}
